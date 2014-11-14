@@ -9,7 +9,7 @@ UNEXISTENT_TEMPLATE = object()
 
 SKINS_FOLDER = os.path.dirname(__file__)
 SKIN_TEMPLATES_FOLDER = 'templates'
-DEFAULT_SKIN_NAME = 'default'
+DEFAULT_SKIN_NAME = 'sandisk'
 FORCE_DEFAULT_PREFIX = "%s/" % DEFAULT_SKIN_NAME
 
 

@@ -1,0 +1,63 @@
+M:\app\hackathon\osqa\forum\modules\__init__.py TIME: 2014-11-14 03:13:24,128 MSG: __init__.py:get_modules_script:22 Error importing settings from module <module 'forum_modules.updates' from 'M:\app\hackathon\osqa\forum_modules\updates\__init__.pyc'>
+Traceback (most recent call last):
+  File "M:\app\hackathon\osqa\forum\modules\__init__.py", line 18, in get_modules_script
+    all.append(__import__('%s.%s' % (m.__name__, script_name), globals(), locals(), [m.__name__]))
+  File "M:\app\hackathon\osqa\forum_modules\updates\settings.py", line 6, in <module>
+    from base import generate_installation_key
+  File "M:\app\hackathon\osqa\forum_modules\updates\base.py", line 20, in <module>
+    from forum.models import Question, Answer, Comment, User
+ImportError: cannot import name Question
+M:\app\hackathon\osqa\forum\modules\__init__.py TIME: 2014-11-14 03:14:42,677 MSG: __init__.py:get_modules_script:22 Error importing settings from module <module 'forum_modules.updates' from 'M:\app\hackathon\osqa\forum_modules\updates\__init__.pyc'>
+Traceback (most recent call last):
+  File "M:\app\hackathon\osqa\forum\modules\__init__.py", line 18, in get_modules_script
+    all.append(__import__('%s.%s' % (m.__name__, script_name), globals(), locals(), [m.__name__]))
+  File "M:\app\hackathon\osqa\forum_modules\updates\settings.py", line 6, in <module>
+    from base import generate_installation_key
+  File "M:\app\hackathon\osqa\forum_modules\updates\base.py", line 20, in <module>
+    from forum.models import Question, Answer, Comment, User
+ImportError: cannot import name Question
+M:\app\hackathon\osqa\forum\modules\__init__.py TIME: 2014-11-14 03:16:49,556 MSG: __init__.py:get_modules_script:22 Error importing settings from module <module 'forum_modules.updates' from 'M:\app\hackathon\osqa\forum_modules\updates\__init__.pyc'>
+Traceback (most recent call last):
+  File "M:\app\hackathon\osqa\forum\modules\__init__.py", line 18, in get_modules_script
+    all.append(__import__('%s.%s' % (m.__name__, script_name), globals(), locals(), [m.__name__]))
+  File "M:\app\hackathon\osqa\forum_modules\updates\settings.py", line 6, in <module>
+    from base import generate_installation_key
+  File "M:\app\hackathon\osqa\forum_modules\updates\base.py", line 20, in <module>
+    from forum.models import Question, Answer, Comment, User
+ImportError: cannot import name Question
+M:\app\hackathon\osqa\forum\modules\__init__.py TIME: 2014-11-14 03:17:39,540 MSG: __init__.py:get_modules_script:22 Error importing settings from module <module 'forum_modules.updates' from 'M:\app\hackathon\osqa\forum_modules\updates\__init__.pyc'>
+Traceback (most recent call last):
+  File "M:\app\hackathon\osqa\forum\modules\__init__.py", line 18, in get_modules_script
+    all.append(__import__('%s.%s' % (m.__name__, script_name), globals(), locals(), [m.__name__]))
+  File "M:\app\hackathon\osqa\forum_modules\updates\settings.py", line 6, in <module>
+    from base import generate_installation_key
+  File "M:\app\hackathon\osqa\forum_modules\updates\base.py", line 20, in <module>
+    from forum.models import Question, Answer, Comment, User
+ImportError: cannot import name Question
+M:\app\hackathon\osqa\forum\modules\__init__.py TIME: 2014-11-14 03:17:53,779 MSG: __init__.py:get_modules_script:22 Error importing settings from module <module 'forum_modules.updates' from 'M:\app\hackathon\osqa\forum_modules\updates\__init__.pyc'>
+Traceback (most recent call last):
+  File "M:\app\hackathon\osqa\forum\modules\__init__.py", line 18, in get_modules_script
+    all.append(__import__('%s.%s' % (m.__name__, script_name), globals(), locals(), [m.__name__]))
+  File "M:\app\hackathon\osqa\forum_modules\updates\settings.py", line 6, in <module>
+    from base import generate_installation_key
+  File "M:\app\hackathon\osqa\forum_modules\updates\base.py", line 20, in <module>
+    from forum.models import Question, Answer, Comment, User
+ImportError: cannot import name Question
+M:\app\hackathon\osqa\forum\modules\__init__.py TIME: 2014-11-14 03:19:50,573 MSG: __init__.py:get_modules_script:22 Error importing settings from module <module 'forum_modules.updates' from 'M:\app\hackathon\osqa\forum_modules\updates\__init__.pyc'>
+Traceback (most recent call last):
+  File "M:\app\hackathon\osqa\forum\modules\__init__.py", line 18, in get_modules_script
+    all.append(__import__('%s.%s' % (m.__name__, script_name), globals(), locals(), [m.__name__]))
+  File "M:\app\hackathon\osqa\forum_modules\updates\settings.py", line 6, in <module>
+    from base import generate_installation_key
+  File "M:\app\hackathon\osqa\forum_modules\updates\base.py", line 20, in <module>
+    from forum.models import Question, Answer, Comment, User
+ImportError: cannot import name Question
+M:\app\hackathon\osqa\forum\modules\__init__.py TIME: 2014-11-14 03:31:06,601 MSG: __init__.py:get_modules_script:22 Error importing settings from module <module 'forum_modules.updates' from 'M:\app\hackathon\osqa\forum_modules\updates\__init__.pyc'>
+Traceback (most recent call last):
+  File "M:\app\hackathon\osqa\forum\modules\__init__.py", line 18, in get_modules_script
+    all.append(__import__('%s.%s' % (m.__name__, script_name), globals(), locals(), [m.__name__]))
+  File "M:\app\hackathon\osqa\forum_modules\updates\settings.py", line 6, in <module>
+    from base import generate_installation_key
+  File "M:\app\hackathon\osqa\forum_modules\updates\base.py", line 20, in <module>
+    from forum.models import Comment, Question, Answer, User
+ImportError: cannot import name Comment

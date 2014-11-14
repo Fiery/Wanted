@@ -1,0 +1,30 @@
+C:\Python27\lib\site-packages\markdown\__init__.py TIME: 2014-11-14 02:53:18,691 MSG: __init__.py:build_extension:245 Successfuly imported extension module "mdx_settingsparser".
+C:\Python27\lib\site-packages\markdown\__init__.py TIME: 2014-11-14 02:53:18,707 MSG: __init__.py:registerExtensions:184 Successfully loaded extension "mdx_settingsparser.SettingsExtension".
+C:\Python27\lib\site-packages\markdown\__init__.py TIME: 2014-11-14 02:53:18,801 MSG: __init__.py:build_extension:245 Successfuly imported extension module "mdx_settingsparser".
+C:\Python27\lib\site-packages\markdown\__init__.py TIME: 2014-11-14 02:53:18,801 MSG: __init__.py:registerExtensions:184 Successfully loaded extension "mdx_settingsparser.SettingsExtension".
+C:\Python27\lib\site-packages\markdown\__init__.py TIME: 2014-11-14 02:56:21,980 MSG: __init__.py:build_extension:245 Successfuly imported extension module "mdx_settingsparser".
+C:\Python27\lib\site-packages\markdown\__init__.py TIME: 2014-11-14 02:56:21,980 MSG: __init__.py:registerExtensions:184 Successfully loaded extension "mdx_settingsparser.SettingsExtension".
+C:\Python27\lib\site-packages\markdown\__init__.py TIME: 2014-11-14 02:56:22,043 MSG: __init__.py:build_extension:245 Successfuly imported extension module "mdx_settingsparser".
+C:\Python27\lib\site-packages\markdown\__init__.py TIME: 2014-11-14 02:56:22,043 MSG: __init__.py:registerExtensions:184 Successfully loaded extension "mdx_settingsparser.SettingsExtension".
+M:\app\hackathon\osqa\forum\modules\__init__.py TIME: 2014-11-14 03:12:39,459 MSG: __init__.py:get_modules_script:22 Error importing settings from module <module 'forum_modules.updates' from 'M:\app\hackathon\osqa\forum_modules\updates\__init__.pyc'>
+Traceback (most recent call last):
+  File "M:\app\hackathon\osqa\forum\modules\__init__.py", line 18, in get_modules_script
+    all.append(__import__('%s.%s' % (m.__name__, script_name), globals(), locals(), [m.__name__]))
+  File "M:\app\hackathon\osqa\forum_modules\updates\settings.py", line 6, in <module>
+    from base import generate_installation_key
+  File "M:\app\hackathon\osqa\forum_modules\updates\base.py", line 20, in <module>
+    from forum.models import Question, Answer, Comment, User
+ImportError: cannot import name Question
+C:\Python27\lib\site-packages\markdown\__init__.py TIME: 2014-11-14 03:12:48,226 MSG: __init__.py:build_extension:245 Successfuly imported extension module "mdx_settingsparser".
+C:\Python27\lib\site-packages\markdown\__init__.py TIME: 2014-11-14 03:12:48,242 MSG: __init__.py:registerExtensions:184 Successfully loaded extension "mdx_settingsparser.SettingsExtension".
+C:\Python27\lib\site-packages\markdown\__init__.py TIME: 2014-11-14 03:12:48,305 MSG: __init__.py:build_extension:245 Successfuly imported extension module "mdx_settingsparser".
+C:\Python27\lib\site-packages\markdown\__init__.py TIME: 2014-11-14 03:12:48,305 MSG: __init__.py:registerExtensions:184 Successfully loaded extension "mdx_settingsparser.SettingsExtension".
+M:\app\hackathon\osqa\forum\modules\__init__.py TIME: 2014-11-14 03:13:05,496 MSG: __init__.py:get_modules_script:22 Error importing settings from module <module 'forum_modules.updates' from 'M:\app\hackathon\osqa\forum_modules\updates\__init__.pyc'>
+Traceback (most recent call last):
+  File "M:\app\hackathon\osqa\forum\modules\__init__.py", line 18, in get_modules_script
+    all.append(__import__('%s.%s' % (m.__name__, script_name), globals(), locals(), [m.__name__]))
+  File "M:\app\hackathon\osqa\forum_modules\updates\settings.py", line 6, in <module>
+    from base import generate_installation_key
+  File "M:\app\hackathon\osqa\forum_modules\updates\base.py", line 20, in <module>
+    from forum.models import Question, Answer, Comment, User
+ImportError: cannot import name Question

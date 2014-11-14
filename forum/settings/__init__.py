@@ -29,6 +29,8 @@ OSQA_SKIN = djsettings.OSQA_DEFAULT_SKIN
 LANGUAGE_CODE = djsettings.LANGUAGE_CODE
 ONLINE_USERS = Setting('ONLINE_USERS', {})
 
+BADGES_SET = SettingSet('badges', _('Badges config'), _("Configure badges on your OSQA site."), 500)
+
 
 from basic import *
 from sidebar import *
@@ -49,6 +51,7 @@ from urls import *
 from accept import *
 from sitemaps import *
 
+
 __all__ = locals().keys()
 
 # Be able to import all module settings as well
@@ -57,7 +60,5 @@ for k,v in get_modules_script_implementations('settings', BaseSetting).items():
         __all__.append(k)
         exec "%s = v" % k
 
-
-BADGES_SET = SettingSet('badges', _('Badges config'), _("Configure badges on your OSQA site."), 500)
 
 

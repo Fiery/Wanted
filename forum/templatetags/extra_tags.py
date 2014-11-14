@@ -177,7 +177,7 @@ def media(url):
     url = skins.find_media_source(url)
     if url:
         # Create the URL prefix.
-        url_prefix = settings.FORCE_SCRIPT_NAME + '/m/'
+        url_prefix = settings.FORCE_SCRIPT_NAME + '/i/'
 
         # Make sure any duplicate forward slashes are replaced with a single
         # forward slash.
@@ -221,7 +221,7 @@ class BlockMediaUrlNode(template.Node):
         self.items = nodelist
 
     def render(self, context):
-        prefix = settings.APP_URL + 'm/'
+        prefix = settings.APP_URL + 'i/'
         url = ''
         if self.items:
             url += '/'

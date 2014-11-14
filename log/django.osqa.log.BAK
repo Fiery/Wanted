@@ -1,0 +1,1618 @@
+M:\app\hackathon\osqa\forum\modules\__init__.py TIME: 2014-11-14 01:28:08,618 MSG: __init__.py:get_modules_script:22 Error importing settings from module <module 'forum_modules.default_badges' from 'M:\app\hackathon\osqa\forum_modules\default_badges\__init__.pyc'>
+Traceback (most recent call last):
+  File "M:\app\hackathon\osqa\forum\modules\__init__.py", line 18, in get_modules_script
+    all.append(__import__('%s.%s' % (m.__name__, script_name), globals(), locals(), [m.__name__]))
+  File "M:\app\hackathon\osqa\forum_modules\default_badges\settings.py", line 1, in <module>
+    from forum.settings import BADGES_SET
+ImportError: cannot import name BADGES_SET
+M:\app\hackathon\osqa\forum\modules\__init__.py TIME: 2014-11-14 01:28:09,150 MSG: __init__.py:get_modules_script:22 Error importing settings from module <module 'forum_modules.updates' from 'M:\app\hackathon\osqa\forum_modules\updates\__init__.pyc'>
+Traceback (most recent call last):
+  File "M:\app\hackathon\osqa\forum\modules\__init__.py", line 18, in get_modules_script
+    all.append(__import__('%s.%s' % (m.__name__, script_name), globals(), locals(), [m.__name__]))
+  File "M:\app\hackathon\osqa\forum_modules\updates\settings.py", line 6, in <module>
+    from base import generate_installation_key
+  File "M:\app\hackathon\osqa\forum_modules\updates\base.py", line 20, in <module>
+    from forum.models import Question, Answer, Comment, User
+ImportError: cannot import name Question
+M:\app\hackathon\osqa\forum\modules\__init__.py TIME: 2014-11-14 01:30:13,736 MSG: __init__.py:get_modules_script:22 Error importing settings from module <module 'forum_modules.default_badges' from 'M:\app\hackathon\osqa\forum_modules\default_badges\__init__.pyc'>
+Traceback (most recent call last):
+  File "M:\app\hackathon\osqa\forum\modules\__init__.py", line 18, in get_modules_script
+    all.append(__import__('%s.%s' % (m.__name__, script_name), globals(), locals(), [m.__name__]))
+  File "M:\app\hackathon\osqa\forum_modules\default_badges\settings.py", line 1, in <module>
+    from forum.settings import BADGES_SET
+ImportError: cannot import name BADGES_SET
+M:\app\hackathon\osqa\forum\modules\__init__.py TIME: 2014-11-14 01:30:14,223 MSG: __init__.py:get_modules_script:22 Error importing settings from module <module 'forum_modules.updates' from 'M:\app\hackathon\osqa\forum_modules\updates\__init__.pyc'>
+Traceback (most recent call last):
+  File "M:\app\hackathon\osqa\forum\modules\__init__.py", line 18, in get_modules_script
+    all.append(__import__('%s.%s' % (m.__name__, script_name), globals(), locals(), [m.__name__]))
+  File "M:\app\hackathon\osqa\forum_modules\updates\settings.py", line 6, in <module>
+    from base import generate_installation_key
+  File "M:\app\hackathon\osqa\forum_modules\updates\base.py", line 20, in <module>
+    from forum.models import Question, Answer, Comment, User
+ImportError: cannot import name Question
+M:\app\hackathon\osqa\forum\modules\__init__.py TIME: 2014-11-14 01:30:35,167 MSG: __init__.py:get_modules_script:22 Error importing settings from module <module 'forum_modules.default_badges' from 'M:\app\hackathon\osqa\forum_modules\default_badges\__init__.pyc'>
+Traceback (most recent call last):
+  File "M:\app\hackathon\osqa\forum\modules\__init__.py", line 18, in get_modules_script
+    all.append(__import__('%s.%s' % (m.__name__, script_name), globals(), locals(), [m.__name__]))
+  File "M:\app\hackathon\osqa\forum_modules\default_badges\settings.py", line 1, in <module>
+    from forum.settings import BADGES_SET
+ImportError: cannot import name BADGES_SET
+M:\app\hackathon\osqa\forum\modules\__init__.py TIME: 2014-11-14 01:30:35,635 MSG: __init__.py:get_modules_script:22 Error importing settings from module <module 'forum_modules.updates' from 'M:\app\hackathon\osqa\forum_modules\updates\__init__.pyc'>
+Traceback (most recent call last):
+  File "M:\app\hackathon\osqa\forum\modules\__init__.py", line 18, in get_modules_script
+    all.append(__import__('%s.%s' % (m.__name__, script_name), globals(), locals(), [m.__name__]))
+  File "M:\app\hackathon\osqa\forum_modules\updates\settings.py", line 6, in <module>
+    from base import generate_installation_key
+  File "M:\app\hackathon\osqa\forum_modules\updates\base.py", line 20, in <module>
+    from forum.models import Question, Answer, Comment, User
+ImportError: cannot import name Question
+M:\app\hackathon\osqa\forum\modules\__init__.py TIME: 2014-11-14 01:30:40,823 MSG: __init__.py:get_modules_script:22 Error importing settings from module <module 'forum_modules.default_badges' from 'M:\app\hackathon\osqa\forum_modules\default_badges\__init__.pyc'>
+Traceback (most recent call last):
+  File "M:\app\hackathon\osqa\forum\modules\__init__.py", line 18, in get_modules_script
+    all.append(__import__('%s.%s' % (m.__name__, script_name), globals(), locals(), [m.__name__]))
+  File "M:\app\hackathon\osqa\forum_modules\default_badges\settings.py", line 1, in <module>
+    from forum.settings import BADGES_SET
+ImportError: cannot import name BADGES_SET
+M:\app\hackathon\osqa\forum\modules\__init__.py TIME: 2014-11-14 01:30:41,292 MSG: __init__.py:get_modules_script:22 Error importing settings from module <module 'forum_modules.updates' from 'M:\app\hackathon\osqa\forum_modules\updates\__init__.pyc'>
+Traceback (most recent call last):
+  File "M:\app\hackathon\osqa\forum\modules\__init__.py", line 18, in get_modules_script
+    all.append(__import__('%s.%s' % (m.__name__, script_name), globals(), locals(), [m.__name__]))
+  File "M:\app\hackathon\osqa\forum_modules\updates\settings.py", line 6, in <module>
+    from base import generate_installation_key
+  File "M:\app\hackathon\osqa\forum_modules\updates\base.py", line 20, in <module>
+    from forum.models import Question, Answer, Comment, User
+ImportError: cannot import name Question
+C:\Python27\lib\site-packages\django\db\backends\schema.py TIME: 2014-11-14 01:30:42,668 MSG: schema.py:execute:94 CREATE TABLE "django_migrations" ("id" integer NOT NULL PRIMARY KEY AUTOINCREMENT, "app" varchar(255) NOT NULL, "name" varchar(255) NOT NULL, "applied" datetime NOT NULL); (params [])
+M:\app\hackathon\osqa\forum\settings\base.py TIME: 2014-11-14 01:32:09,970 MSG: base.py:value:65 Error retrieving setting from database (FORM_EMPTY_QUESTION_BODY): no such table: forum_keyvalue
+M:\app\hackathon\osqa\forum\settings\base.py TIME: 2014-11-14 01:32:09,986 MSG: base.py:value:65 Error retrieving setting from database (FORM_MIN_NUMBER_OF_TAGS): no such table: forum_keyvalue
+M:\app\hackathon\osqa\forum\settings\base.py TIME: 2014-11-14 01:32:10,002 MSG: base.py:value:65 Error retrieving setting from database (FORM_MAX_NUMBER_OF_TAGS): no such table: forum_keyvalue
+M:\app\hackathon\osqa\forum\settings\base.py TIME: 2014-11-14 01:32:10,016 MSG: base.py:value:65 Error retrieving setting from database (FORM_EMPTY_QUESTION_BODY): no such table: forum_keyvalue
+M:\app\hackathon\osqa\forum\settings\base.py TIME: 2014-11-14 01:32:10,111 MSG: base.py:value:65 Error retrieving setting from database (MIN_USERNAME_LENGTH): no such table: forum_keyvalue
+M:\app\hackathon\osqa\forum\settings\base.py TIME: 2014-11-14 01:32:11,596 MSG: base.py:value:65 Error retrieving setting from database (MIN_USERNAME_LENGTH): no such table: forum_keyvalue
+M:\app\hackathon\osqa\forum\settings\base.py TIME: 2014-11-14 01:32:11,612 MSG: base.py:value:65 Error retrieving setting from database (MIN_USERNAME_LENGTH): no such table: forum_keyvalue
+C:\Python27\lib\site-packages\django\middleware\transaction.py TIME: 2014-11-14 01:32:12,737 MSG: transaction.py:__init__:19 C:\Python27\lib\site-packages\django\core\handlers\base.py:46: RemovedInDjango18Warning: TransactionMiddleware is deprecated in favor of ATOMIC_REQUESTS.
+  mw_instance = mw_class()
+
+C:\Python27\lib\site-packages\django\core\handlers\base.py TIME: 2014-11-14 01:32:12,753 MSG: base.py:get_response:180 Invalid HTTP_HOST header: 'localhost:8000'. You may need to add u'localhost' to ALLOWED_HOSTS.
+M:\app\hackathon\osqa\forum\modules\__init__.py TIME: 2014-11-14 01:32:13,753 MSG: __init__.py:get_modules_script:22 Error importing startup from module <module 'forum_modules.exporter' from 'M:\app\hackathon\osqa\forum_modules\exporter\__init__.pyc'>
+Traceback (most recent call last):
+  File "M:\app\hackathon\osqa\forum\modules\__init__.py", line 18, in get_modules_script
+    all.append(__import__('%s.%s' % (m.__name__, script_name), globals(), locals(), [m.__name__]))
+  File "M:\app\hackathon\osqa\forum_modules\exporter\startup.py", line 1, in <module>
+    import views
+  File "M:\app\hackathon\osqa\forum_modules\exporter\views.py", line 19, in <module>
+    from importer import start_import
+  File "M:\app\hackathon\osqa\forum_modules\exporter\importer.py", line 8, in <module>
+    from south.db import db
+ImportError: No module named south.db
+M:\app\hackathon\osqa\forum\modules\__init__.py TIME: 2014-11-14 01:32:14,160 MSG: __init__.py:get_modules_script:22 Error importing badges from module <module 'forum_modules.default_badges' from 'M:\app\hackathon\osqa\forum_modules\default_badges\__init__.pyc'>
+Traceback (most recent call last):
+  File "M:\app\hackathon\osqa\forum\modules\__init__.py", line 18, in get_modules_script
+    all.append(__import__('%s.%s' % (m.__name__, script_name), globals(), locals(), [m.__name__]))
+  File "M:\app\hackathon\osqa\forum_modules\default_badges\badges.py", line 3, in <module>
+    from forum.badges.base import AbstractBadge
+  File "M:\app\hackathon\osqa\forum\badges\base.py", line 12, in <module>
+    installed = dict([(b.cls, b) for b in Badge.objects.all()])
+  File "C:\Python27\lib\site-packages\django\db\models\query.py", line 141, in __iter__
+    self._fetch_all()
+  File "C:\Python27\lib\site-packages\django\db\models\query.py", line 966, in _fetch_all
+    self._result_cache = list(self.iterator())
+  File "M:\app\hackathon\osqa\forum\models\base.py", line 134, in iterator
+    key_list = [v[0] for v in self.values_list(*values_list)]
+  File "C:\Python27\lib\site-packages\django\db\models\query.py", line 141, in __iter__
+    self._fetch_all()
+  File "C:\Python27\lib\site-packages\django\db\models\query.py", line 966, in _fetch_all
+    self._result_cache = list(self.iterator())
+  File "C:\Python27\lib\site-packages\django\db\models\query.py", line 1205, in iterator
+    for row in self.query.get_compiler(self.db).results_iter():
+  File "C:\Python27\lib\site-packages\django\db\models\sql\compiler.py", line 700, in results_iter
+    for rows in self.execute_sql(MULTI):
+  File "C:\Python27\lib\site-packages\django\db\models\sql\compiler.py", line 786, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Python27\lib\site-packages\django\db\backends\utils.py", line 65, in execute
+    return self.cursor.execute(sql, params)
+  File "C:\Python27\lib\site-packages\django\db\utils.py", line 94, in __exit__
+    six.reraise(dj_exc_type, dj_exc_value, traceback)
+  File "C:\Python27\lib\site-packages\django\db\backends\utils.py", line 65, in execute
+    return self.cursor.execute(sql, params)
+  File "C:\Python27\lib\site-packages\django\db\backends\sqlite3\base.py", line 485, in execute
+    return Database.Cursor.execute(self, query, params)
+OperationalError: no such table: forum_badge
+C:\Python27\lib\site-packages\django\core\handlers\base.py TIME: 2014-11-14 01:32:14,332 MSG: base.py:handle_uncaught_exception:231 Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 184, in get_response
+    callback, param_dict = resolver.resolve400()
+  File "C:\Python27\lib\site-packages\django\core\urlresolvers.py", line 394, in resolve400
+    return self._resolve_special('400')
+  File "C:\Python27\lib\site-packages\django\core\urlresolvers.py", line 385, in _resolve_special
+    callback = getattr(self.urlconf_module, 'handler%s' % view_type, None)
+  File "C:\Python27\lib\site-packages\django\core\urlresolvers.py", line 366, in urlconf_module
+    self._urlconf_module = import_module(self.urlconf_name)
+  File "C:\Python27\lib\importlib\__init__.py", line 37, in import_module
+    __import__(name)
+  File "M:\app\hackathon\osqa\urls.py", line 6, in <module>
+    (r'', include('forum.urls')),
+  File "C:\Python27\lib\site-packages\django\conf\urls\__init__.py", line 28, in include
+    urlconf_module = import_module(urlconf_module)
+  File "C:\Python27\lib\importlib\__init__.py", line 37, in import_module
+    __import__(name)
+  File "M:\app\hackathon\osqa\forum\urls.py", line 1, in <module>
+    import startup
+  File "M:\app\hackathon\osqa\forum\startup.py", line 11, in <module>
+    import forum.badges
+  File "M:\app\hackathon\osqa\forum\badges\__init__.py", line 5, in <module>
+    from base import BadgesMeta
+  File "M:\app\hackathon\osqa\forum\badges\base.py", line 12, in <module>
+    installed = dict([(b.cls, b) for b in Badge.objects.all()])
+  File "C:\Python27\lib\site-packages\django\db\models\query.py", line 141, in __iter__
+    self._fetch_all()
+  File "C:\Python27\lib\site-packages\django\db\models\query.py", line 966, in _fetch_all
+    self._result_cache = list(self.iterator())
+  File "M:\app\hackathon\osqa\forum\models\base.py", line 134, in iterator
+    key_list = [v[0] for v in self.values_list(*values_list)]
+  File "C:\Python27\lib\site-packages\django\db\models\query.py", line 141, in __iter__
+    self._fetch_all()
+  File "C:\Python27\lib\site-packages\django\db\models\query.py", line 966, in _fetch_all
+    self._result_cache = list(self.iterator())
+  File "C:\Python27\lib\site-packages\django\db\models\query.py", line 1205, in iterator
+    for row in self.query.get_compiler(self.db).results_iter():
+  File "C:\Python27\lib\site-packages\django\db\models\sql\compiler.py", line 700, in results_iter
+    for rows in self.execute_sql(MULTI):
+  File "C:\Python27\lib\site-packages\django\db\models\sql\compiler.py", line 786, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Python27\lib\site-packages\django\db\backends\utils.py", line 65, in execute
+    return self.cursor.execute(sql, params)
+  File "C:\Python27\lib\site-packages\django\db\utils.py", line 94, in __exit__
+    six.reraise(dj_exc_type, dj_exc_value, traceback)
+  File "C:\Python27\lib\site-packages\django\db\backends\utils.py", line 65, in execute
+    return self.cursor.execute(sql, params)
+  File "C:\Python27\lib\site-packages\django\db\backends\sqlite3\base.py", line 485, in execute
+    return Database.Cursor.execute(self, query, params)
+OperationalError: no such table: forum_badge
+M:\app\hackathon\osqa\forum\modules\__init__.py TIME: 2014-11-14 01:32:14,612 MSG: __init__.py:get_modules_script:22 Error importing startup from module <module 'forum_modules.exporter' from 'M:\app\hackathon\osqa\forum_modules\exporter\__init__.pyc'>
+Traceback (most recent call last):
+  File "M:\app\hackathon\osqa\forum\modules\__init__.py", line 18, in get_modules_script
+    all.append(__import__('%s.%s' % (m.__name__, script_name), globals(), locals(), [m.__name__]))
+  File "M:\app\hackathon\osqa\forum_modules\exporter\startup.py", line 1, in <module>
+    import views
+  File "M:\app\hackathon\osqa\forum_modules\exporter\views.py", line 19, in <module>
+    from importer import start_import
+  File "M:\app\hackathon\osqa\forum_modules\exporter\importer.py", line 8, in <module>
+    from south.db import db
+ImportError: No module named south.db
+M:\app\hackathon\osqa\forum\modules\__init__.py TIME: 2014-11-14 01:32:14,769 MSG: __init__.py:get_modules_script:22 Error importing badges from module <module 'forum_modules.default_badges' from 'M:\app\hackathon\osqa\forum_modules\default_badges\__init__.pyc'>
+Traceback (most recent call last):
+  File "M:\app\hackathon\osqa\forum\modules\__init__.py", line 18, in get_modules_script
+    all.append(__import__('%s.%s' % (m.__name__, script_name), globals(), locals(), [m.__name__]))
+  File "M:\app\hackathon\osqa\forum_modules\default_badges\badges.py", line 3, in <module>
+    from forum.badges.base import AbstractBadge
+  File "M:\app\hackathon\osqa\forum\badges\base.py", line 12, in <module>
+    installed = dict([(b.cls, b) for b in Badge.objects.all()])
+  File "C:\Python27\lib\site-packages\django\db\models\query.py", line 141, in __iter__
+    self._fetch_all()
+  File "C:\Python27\lib\site-packages\django\db\models\query.py", line 966, in _fetch_all
+    self._result_cache = list(self.iterator())
+  File "M:\app\hackathon\osqa\forum\models\base.py", line 134, in iterator
+    key_list = [v[0] for v in self.values_list(*values_list)]
+  File "C:\Python27\lib\site-packages\django\db\models\query.py", line 141, in __iter__
+    self._fetch_all()
+  File "C:\Python27\lib\site-packages\django\db\models\query.py", line 966, in _fetch_all
+    self._result_cache = list(self.iterator())
+  File "C:\Python27\lib\site-packages\django\db\models\query.py", line 1205, in iterator
+    for row in self.query.get_compiler(self.db).results_iter():
+  File "C:\Python27\lib\site-packages\django\db\models\sql\compiler.py", line 700, in results_iter
+    for rows in self.execute_sql(MULTI):
+  File "C:\Python27\lib\site-packages\django\db\models\sql\compiler.py", line 786, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Python27\lib\site-packages\django\db\backends\utils.py", line 65, in execute
+    return self.cursor.execute(sql, params)
+  File "C:\Python27\lib\site-packages\django\db\utils.py", line 94, in __exit__
+    six.reraise(dj_exc_type, dj_exc_value, traceback)
+  File "C:\Python27\lib\site-packages\django\db\backends\utils.py", line 65, in execute
+    return self.cursor.execute(sql, params)
+  File "C:\Python27\lib\site-packages\django\db\backends\sqlite3\base.py", line 485, in execute
+    return Database.Cursor.execute(self, query, params)
+OperationalError: no such table: forum_badge
+M:\app\hackathon\osqa\forum\modules\__init__.py TIME: 2014-11-14 01:35:51,437 MSG: __init__.py:get_modules_script:22 Error importing settings from module <module 'forum_modules.default_badges' from 'M:\app\hackathon\osqa\forum_modules\default_badges\__init__.pyc'>
+Traceback (most recent call last):
+  File "M:\app\hackathon\osqa\forum\modules\__init__.py", line 18, in get_modules_script
+    all.append(__import__('%s.%s' % (m.__name__, script_name), globals(), locals(), [m.__name__]))
+  File "M:\app\hackathon\osqa\forum_modules\default_badges\settings.py", line 1, in <module>
+    from forum.settings import BADGES_SET
+ImportError: cannot import name BADGES_SET
+M:\app\hackathon\osqa\forum\modules\__init__.py TIME: 2014-11-14 01:35:51,983 MSG: __init__.py:get_modules_script:22 Error importing settings from module <module 'forum_modules.updates' from 'M:\app\hackathon\osqa\forum_modules\updates\__init__.pyc'>
+Traceback (most recent call last):
+  File "M:\app\hackathon\osqa\forum\modules\__init__.py", line 18, in get_modules_script
+    all.append(__import__('%s.%s' % (m.__name__, script_name), globals(), locals(), [m.__name__]))
+  File "M:\app\hackathon\osqa\forum_modules\updates\settings.py", line 6, in <module>
+    from base import generate_installation_key
+  File "M:\app\hackathon\osqa\forum_modules\updates\base.py", line 20, in <module>
+    from forum.models import Question, Answer, Comment, User
+ImportError: cannot import name Question
+M:\app\hackathon\osqa\forum\modules\__init__.py TIME: 2014-11-14 01:35:56,733 MSG: __init__.py:get_modules_script:22 Error importing settings from module <module 'forum_modules.default_badges' from 'M:\app\hackathon\osqa\forum_modules\default_badges\__init__.pyc'>
+Traceback (most recent call last):
+  File "M:\app\hackathon\osqa\forum\modules\__init__.py", line 18, in get_modules_script
+    all.append(__import__('%s.%s' % (m.__name__, script_name), globals(), locals(), [m.__name__]))
+  File "M:\app\hackathon\osqa\forum_modules\default_badges\settings.py", line 1, in <module>
+    from forum.settings import BADGES_SET
+ImportError: cannot import name BADGES_SET
+M:\app\hackathon\osqa\forum\modules\__init__.py TIME: 2014-11-14 01:35:57,203 MSG: __init__.py:get_modules_script:22 Error importing settings from module <module 'forum_modules.updates' from 'M:\app\hackathon\osqa\forum_modules\updates\__init__.pyc'>
+Traceback (most recent call last):
+  File "M:\app\hackathon\osqa\forum\modules\__init__.py", line 18, in get_modules_script
+    all.append(__import__('%s.%s' % (m.__name__, script_name), globals(), locals(), [m.__name__]))
+  File "M:\app\hackathon\osqa\forum_modules\updates\settings.py", line 6, in <module>
+    from base import generate_installation_key
+  File "M:\app\hackathon\osqa\forum_modules\updates\base.py", line 20, in <module>
+    from forum.models import Question, Answer, Comment, User
+ImportError: cannot import name Question
+C:\Python27\lib\site-packages\django\db\backends\schema.py TIME: 2014-11-14 01:35:58,484 MSG: schema.py:execute:94 CREATE TABLE "django_migrations" ("id" integer NOT NULL PRIMARY KEY AUTOINCREMENT, "app" varchar(255) NOT NULL, "name" varchar(255) NOT NULL, "applied" datetime NOT NULL); (params [])
+M:\app\hackathon\osqa\forum\settings\base.py TIME: 2014-11-14 01:36:01,437 MSG: base.py:value:65 Error retrieving setting from database (FORM_EMPTY_QUESTION_BODY): no such table: forum_keyvalue
+M:\app\hackathon\osqa\forum\settings\base.py TIME: 2014-11-14 01:36:01,453 MSG: base.py:value:65 Error retrieving setting from database (FORM_MIN_NUMBER_OF_TAGS): no such table: forum_keyvalue
+M:\app\hackathon\osqa\forum\settings\base.py TIME: 2014-11-14 01:36:01,470 MSG: base.py:value:65 Error retrieving setting from database (FORM_MAX_NUMBER_OF_TAGS): no such table: forum_keyvalue
+M:\app\hackathon\osqa\forum\settings\base.py TIME: 2014-11-14 01:36:01,484 MSG: base.py:value:65 Error retrieving setting from database (FORM_EMPTY_QUESTION_BODY): no such table: forum_keyvalue
+M:\app\hackathon\osqa\forum\settings\base.py TIME: 2014-11-14 01:36:01,562 MSG: base.py:value:65 Error retrieving setting from database (MIN_USERNAME_LENGTH): no such table: forum_keyvalue
+M:\app\hackathon\osqa\forum\settings\base.py TIME: 2014-11-14 01:36:02,798 MSG: base.py:value:65 Error retrieving setting from database (MIN_USERNAME_LENGTH): no such table: forum_keyvalue
+M:\app\hackathon\osqa\forum\settings\base.py TIME: 2014-11-14 01:36:02,813 MSG: base.py:value:65 Error retrieving setting from database (MIN_USERNAME_LENGTH): no such table: forum_keyvalue
+C:\Python27\lib\site-packages\django\middleware\transaction.py TIME: 2014-11-14 01:36:03,813 MSG: transaction.py:__init__:19 C:\Python27\lib\site-packages\django\core\handlers\base.py:46: RemovedInDjango18Warning: TransactionMiddleware is deprecated in favor of ATOMIC_REQUESTS.
+  mw_instance = mw_class()
+
+C:\Python27\lib\site-packages\django\core\handlers\base.py TIME: 2014-11-14 01:36:03,813 MSG: base.py:get_response:180 Invalid HTTP_HOST header: 'localhost:8000'. You may need to add u'localhost' to ALLOWED_HOSTS.
+M:\app\hackathon\osqa\forum\modules\__init__.py TIME: 2014-11-14 01:36:04,703 MSG: __init__.py:get_modules_script:22 Error importing startup from module <module 'forum_modules.exporter' from 'M:\app\hackathon\osqa\forum_modules\exporter\__init__.pyc'>
+Traceback (most recent call last):
+  File "M:\app\hackathon\osqa\forum\modules\__init__.py", line 18, in get_modules_script
+    all.append(__import__('%s.%s' % (m.__name__, script_name), globals(), locals(), [m.__name__]))
+  File "M:\app\hackathon\osqa\forum_modules\exporter\startup.py", line 1, in <module>
+    import views
+  File "M:\app\hackathon\osqa\forum_modules\exporter\views.py", line 19, in <module>
+    from importer import start_import
+  File "M:\app\hackathon\osqa\forum_modules\exporter\importer.py", line 8, in <module>
+    from south.db import db
+ImportError: No module named south.db
+M:\app\hackathon\osqa\forum\modules\__init__.py TIME: 2014-11-14 01:36:05,032 MSG: __init__.py:get_modules_script:22 Error importing badges from module <module 'forum_modules.default_badges' from 'M:\app\hackathon\osqa\forum_modules\default_badges\__init__.pyc'>
+Traceback (most recent call last):
+  File "M:\app\hackathon\osqa\forum\modules\__init__.py", line 18, in get_modules_script
+    all.append(__import__('%s.%s' % (m.__name__, script_name), globals(), locals(), [m.__name__]))
+  File "M:\app\hackathon\osqa\forum_modules\default_badges\badges.py", line 3, in <module>
+    from forum.badges.base import AbstractBadge
+  File "M:\app\hackathon\osqa\forum\badges\base.py", line 12, in <module>
+    installed = dict([(b.cls, b) for b in Badge.objects.all()])
+  File "C:\Python27\lib\site-packages\django\db\models\query.py", line 141, in __iter__
+    self._fetch_all()
+  File "C:\Python27\lib\site-packages\django\db\models\query.py", line 966, in _fetch_all
+    self._result_cache = list(self.iterator())
+  File "M:\app\hackathon\osqa\forum\models\base.py", line 134, in iterator
+    key_list = [v[0] for v in self.values_list(*values_list)]
+  File "C:\Python27\lib\site-packages\django\db\models\query.py", line 141, in __iter__
+    self._fetch_all()
+  File "C:\Python27\lib\site-packages\django\db\models\query.py", line 966, in _fetch_all
+    self._result_cache = list(self.iterator())
+  File "C:\Python27\lib\site-packages\django\db\models\query.py", line 1205, in iterator
+    for row in self.query.get_compiler(self.db).results_iter():
+  File "C:\Python27\lib\site-packages\django\db\models\sql\compiler.py", line 700, in results_iter
+    for rows in self.execute_sql(MULTI):
+  File "C:\Python27\lib\site-packages\django\db\models\sql\compiler.py", line 786, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Python27\lib\site-packages\django\db\backends\utils.py", line 65, in execute
+    return self.cursor.execute(sql, params)
+  File "C:\Python27\lib\site-packages\django\db\utils.py", line 94, in __exit__
+    six.reraise(dj_exc_type, dj_exc_value, traceback)
+  File "C:\Python27\lib\site-packages\django\db\backends\utils.py", line 65, in execute
+    return self.cursor.execute(sql, params)
+  File "C:\Python27\lib\site-packages\django\db\backends\sqlite3\base.py", line 485, in execute
+    return Database.Cursor.execute(self, query, params)
+OperationalError: no such table: forum_badge
+C:\Python27\lib\site-packages\django\core\handlers\base.py TIME: 2014-11-14 01:36:05,188 MSG: base.py:handle_uncaught_exception:231 Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 184, in get_response
+    callback, param_dict = resolver.resolve400()
+  File "C:\Python27\lib\site-packages\django\core\urlresolvers.py", line 394, in resolve400
+    return self._resolve_special('400')
+  File "C:\Python27\lib\site-packages\django\core\urlresolvers.py", line 385, in _resolve_special
+    callback = getattr(self.urlconf_module, 'handler%s' % view_type, None)
+  File "C:\Python27\lib\site-packages\django\core\urlresolvers.py", line 366, in urlconf_module
+    self._urlconf_module = import_module(self.urlconf_name)
+  File "C:\Python27\lib\importlib\__init__.py", line 37, in import_module
+    __import__(name)
+  File "M:\app\hackathon\osqa\urls.py", line 6, in <module>
+    (r'', include('forum.urls')),
+  File "C:\Python27\lib\site-packages\django\conf\urls\__init__.py", line 28, in include
+    urlconf_module = import_module(urlconf_module)
+  File "C:\Python27\lib\importlib\__init__.py", line 37, in import_module
+    __import__(name)
+  File "M:\app\hackathon\osqa\forum\urls.py", line 1, in <module>
+    import startup
+  File "M:\app\hackathon\osqa\forum\startup.py", line 11, in <module>
+    import forum.badges
+  File "M:\app\hackathon\osqa\forum\badges\__init__.py", line 5, in <module>
+    from base import BadgesMeta
+  File "M:\app\hackathon\osqa\forum\badges\base.py", line 12, in <module>
+    installed = dict([(b.cls, b) for b in Badge.objects.all()])
+  File "C:\Python27\lib\site-packages\django\db\models\query.py", line 141, in __iter__
+    self._fetch_all()
+  File "C:\Python27\lib\site-packages\django\db\models\query.py", line 966, in _fetch_all
+    self._result_cache = list(self.iterator())
+  File "M:\app\hackathon\osqa\forum\models\base.py", line 134, in iterator
+    key_list = [v[0] for v in self.values_list(*values_list)]
+  File "C:\Python27\lib\site-packages\django\db\models\query.py", line 141, in __iter__
+    self._fetch_all()
+  File "C:\Python27\lib\site-packages\django\db\models\query.py", line 966, in _fetch_all
+    self._result_cache = list(self.iterator())
+  File "C:\Python27\lib\site-packages\django\db\models\query.py", line 1205, in iterator
+    for row in self.query.get_compiler(self.db).results_iter():
+  File "C:\Python27\lib\site-packages\django\db\models\sql\compiler.py", line 700, in results_iter
+    for rows in self.execute_sql(MULTI):
+  File "C:\Python27\lib\site-packages\django\db\models\sql\compiler.py", line 786, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Python27\lib\site-packages\django\db\backends\utils.py", line 65, in execute
+    return self.cursor.execute(sql, params)
+  File "C:\Python27\lib\site-packages\django\db\utils.py", line 94, in __exit__
+    six.reraise(dj_exc_type, dj_exc_value, traceback)
+  File "C:\Python27\lib\site-packages\django\db\backends\utils.py", line 65, in execute
+    return self.cursor.execute(sql, params)
+  File "C:\Python27\lib\site-packages\django\db\backends\sqlite3\base.py", line 485, in execute
+    return Database.Cursor.execute(self, query, params)
+OperationalError: no such table: forum_badge
+M:\app\hackathon\osqa\forum\modules\__init__.py TIME: 2014-11-14 01:36:05,453 MSG: __init__.py:get_modules_script:22 Error importing startup from module <module 'forum_modules.exporter' from 'M:\app\hackathon\osqa\forum_modules\exporter\__init__.pyc'>
+Traceback (most recent call last):
+  File "M:\app\hackathon\osqa\forum\modules\__init__.py", line 18, in get_modules_script
+    all.append(__import__('%s.%s' % (m.__name__, script_name), globals(), locals(), [m.__name__]))
+  File "M:\app\hackathon\osqa\forum_modules\exporter\startup.py", line 1, in <module>
+    import views
+  File "M:\app\hackathon\osqa\forum_modules\exporter\views.py", line 19, in <module>
+    from importer import start_import
+  File "M:\app\hackathon\osqa\forum_modules\exporter\importer.py", line 8, in <module>
+    from south.db import db
+ImportError: No module named south.db
+M:\app\hackathon\osqa\forum\modules\__init__.py TIME: 2014-11-14 01:36:05,625 MSG: __init__.py:get_modules_script:22 Error importing badges from module <module 'forum_modules.default_badges' from 'M:\app\hackathon\osqa\forum_modules\default_badges\__init__.pyc'>
+Traceback (most recent call last):
+  File "M:\app\hackathon\osqa\forum\modules\__init__.py", line 18, in get_modules_script
+    all.append(__import__('%s.%s' % (m.__name__, script_name), globals(), locals(), [m.__name__]))
+  File "M:\app\hackathon\osqa\forum_modules\default_badges\badges.py", line 3, in <module>
+    from forum.badges.base import AbstractBadge
+  File "M:\app\hackathon\osqa\forum\badges\base.py", line 12, in <module>
+    installed = dict([(b.cls, b) for b in Badge.objects.all()])
+  File "C:\Python27\lib\site-packages\django\db\models\query.py", line 141, in __iter__
+    self._fetch_all()
+  File "C:\Python27\lib\site-packages\django\db\models\query.py", line 966, in _fetch_all
+    self._result_cache = list(self.iterator())
+  File "M:\app\hackathon\osqa\forum\models\base.py", line 134, in iterator
+    key_list = [v[0] for v in self.values_list(*values_list)]
+  File "C:\Python27\lib\site-packages\django\db\models\query.py", line 141, in __iter__
+    self._fetch_all()
+  File "C:\Python27\lib\site-packages\django\db\models\query.py", line 966, in _fetch_all
+    self._result_cache = list(self.iterator())
+  File "C:\Python27\lib\site-packages\django\db\models\query.py", line 1205, in iterator
+    for row in self.query.get_compiler(self.db).results_iter():
+  File "C:\Python27\lib\site-packages\django\db\models\sql\compiler.py", line 700, in results_iter
+    for rows in self.execute_sql(MULTI):
+  File "C:\Python27\lib\site-packages\django\db\models\sql\compiler.py", line 786, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Python27\lib\site-packages\django\db\backends\utils.py", line 65, in execute
+    return self.cursor.execute(sql, params)
+  File "C:\Python27\lib\site-packages\django\db\utils.py", line 94, in __exit__
+    six.reraise(dj_exc_type, dj_exc_value, traceback)
+  File "C:\Python27\lib\site-packages\django\db\backends\utils.py", line 65, in execute
+    return self.cursor.execute(sql, params)
+  File "C:\Python27\lib\site-packages\django\db\backends\sqlite3\base.py", line 485, in execute
+    return Database.Cursor.execute(self, query, params)
+OperationalError: no such table: forum_badge
+M:\app\hackathon\osqa\forum\modules\__init__.py TIME: 2014-11-14 01:37:05,303 MSG: __init__.py:get_modules_script:22 Error importing settings from module <module 'forum_modules.default_badges' from 'M:\app\hackathon\osqa\forum_modules\default_badges\__init__.pyc'>
+Traceback (most recent call last):
+  File "M:\app\hackathon\osqa\forum\modules\__init__.py", line 18, in get_modules_script
+    all.append(__import__('%s.%s' % (m.__name__, script_name), globals(), locals(), [m.__name__]))
+  File "M:\app\hackathon\osqa\forum_modules\default_badges\settings.py", line 1, in <module>
+    from forum.settings import BADGES_SET
+ImportError: cannot import name BADGES_SET
+M:\app\hackathon\osqa\forum\modules\__init__.py TIME: 2014-11-14 01:37:05,803 MSG: __init__.py:get_modules_script:22 Error importing settings from module <module 'forum_modules.updates' from 'M:\app\hackathon\osqa\forum_modules\updates\__init__.pyc'>
+Traceback (most recent call last):
+  File "M:\app\hackathon\osqa\forum\modules\__init__.py", line 18, in get_modules_script
+    all.append(__import__('%s.%s' % (m.__name__, script_name), globals(), locals(), [m.__name__]))
+  File "M:\app\hackathon\osqa\forum_modules\updates\settings.py", line 6, in <module>
+    from base import generate_installation_key
+  File "M:\app\hackathon\osqa\forum_modules\updates\base.py", line 20, in <module>
+    from forum.models import Question, Answer, Comment, User
+ImportError: cannot import name Question
+M:\app\hackathon\osqa\forum\modules\__init__.py TIME: 2014-11-14 01:38:16,371 MSG: __init__.py:get_modules_script:22 Error importing settings from module <module 'forum_modules.default_badges' from 'M:\app\hackathon\osqa\forum_modules\default_badges\__init__.pyc'>
+Traceback (most recent call last):
+  File "M:\app\hackathon\osqa\forum\modules\__init__.py", line 18, in get_modules_script
+    all.append(__import__('%s.%s' % (m.__name__, script_name), globals(), locals(), [m.__name__]))
+  File "M:\app\hackathon\osqa\forum_modules\default_badges\settings.py", line 1, in <module>
+    from forum.settings import BADGES_SET
+ImportError: cannot import name BADGES_SET
+M:\app\hackathon\osqa\forum\modules\__init__.py TIME: 2014-11-14 01:38:16,855 MSG: __init__.py:get_modules_script:22 Error importing settings from module <module 'forum_modules.updates' from 'M:\app\hackathon\osqa\forum_modules\updates\__init__.pyc'>
+Traceback (most recent call last):
+  File "M:\app\hackathon\osqa\forum\modules\__init__.py", line 18, in get_modules_script
+    all.append(__import__('%s.%s' % (m.__name__, script_name), globals(), locals(), [m.__name__]))
+  File "M:\app\hackathon\osqa\forum_modules\updates\settings.py", line 6, in <module>
+    from base import generate_installation_key
+  File "M:\app\hackathon\osqa\forum_modules\updates\base.py", line 20, in <module>
+    from forum.models import Question, Answer, Comment, User
+ImportError: cannot import name Question
+M:\app\hackathon\osqa\forum\modules\__init__.py TIME: 2014-11-14 01:40:09,043 MSG: __init__.py:get_modules_script:22 Error importing settings from module <module 'forum_modules.default_badges' from 'M:\app\hackathon\osqa\forum_modules\default_badges\__init__.pyc'>
+Traceback (most recent call last):
+  File "M:\app\hackathon\osqa\forum\modules\__init__.py", line 18, in get_modules_script
+    all.append(__import__('%s.%s' % (m.__name__, script_name), globals(), locals(), [m.__name__]))
+  File "M:\app\hackathon\osqa\forum_modules\default_badges\settings.py", line 1, in <module>
+    from forum.settings import BADGES_SET
+ImportError: cannot import name BADGES_SET
+M:\app\hackathon\osqa\forum\modules\__init__.py TIME: 2014-11-14 01:40:09,529 MSG: __init__.py:get_modules_script:22 Error importing settings from module <module 'forum_modules.updates' from 'M:\app\hackathon\osqa\forum_modules\updates\__init__.pyc'>
+Traceback (most recent call last):
+  File "M:\app\hackathon\osqa\forum\modules\__init__.py", line 18, in get_modules_script
+    all.append(__import__('%s.%s' % (m.__name__, script_name), globals(), locals(), [m.__name__]))
+  File "M:\app\hackathon\osqa\forum_modules\updates\settings.py", line 6, in <module>
+    from base import generate_installation_key
+  File "M:\app\hackathon\osqa\forum_modules\updates\base.py", line 20, in <module>
+    from forum.models import Question, Answer, Comment, User
+ImportError: cannot import name Question
+M:\app\hackathon\osqa\forum\modules\__init__.py TIME: 2014-11-14 01:42:31,344 MSG: __init__.py:get_modules_script:22 Error importing settings from module <module 'forum_modules.default_badges' from 'M:\app\hackathon\osqa\forum_modules\default_badges\__init__.pyc'>
+Traceback (most recent call last):
+  File "M:\app\hackathon\osqa\forum\modules\__init__.py", line 18, in get_modules_script
+    all.append(__import__('%s.%s' % (m.__name__, script_name), globals(), locals(), [m.__name__]))
+  File "M:\app\hackathon\osqa\forum_modules\default_badges\settings.py", line 1, in <module>
+    from forum.settings import BADGES_SET
+ImportError: cannot import name BADGES_SET
+M:\app\hackathon\osqa\forum\modules\__init__.py TIME: 2014-11-14 01:42:31,828 MSG: __init__.py:get_modules_script:22 Error importing settings from module <module 'forum_modules.updates' from 'M:\app\hackathon\osqa\forum_modules\updates\__init__.pyc'>
+Traceback (most recent call last):
+  File "M:\app\hackathon\osqa\forum\modules\__init__.py", line 18, in get_modules_script
+    all.append(__import__('%s.%s' % (m.__name__, script_name), globals(), locals(), [m.__name__]))
+  File "M:\app\hackathon\osqa\forum_modules\updates\settings.py", line 6, in <module>
+    from base import generate_installation_key
+  File "M:\app\hackathon\osqa\forum_modules\updates\base.py", line 20, in <module>
+    from forum.models import Question, Answer, Comment, User
+ImportError: cannot import name Question
+M:\app\hackathon\osqa\forum\modules\__init__.py TIME: 2014-11-14 01:53:46,157 MSG: __init__.py:get_modules_script:22 Error importing settings from module <module 'forum_modules.default_badges' from 'M:\app\hackathon\osqa\forum_modules\default_badges\__init__.pyc'>
+Traceback (most recent call last):
+  File "M:\app\hackathon\osqa\forum\modules\__init__.py", line 18, in get_modules_script
+    all.append(__import__('%s.%s' % (m.__name__, script_name), globals(), locals(), [m.__name__]))
+  File "M:\app\hackathon\osqa\forum_modules\default_badges\settings.py", line 1, in <module>
+    from forum.settings import BADGES_SET
+ImportError: cannot import name BADGES_SET
+M:\app\hackathon\osqa\forum\modules\__init__.py TIME: 2014-11-14 01:53:46,641 MSG: __init__.py:get_modules_script:22 Error importing settings from module <module 'forum_modules.updates' from 'M:\app\hackathon\osqa\forum_modules\updates\__init__.pyc'>
+Traceback (most recent call last):
+  File "M:\app\hackathon\osqa\forum\modules\__init__.py", line 18, in get_modules_script
+    all.append(__import__('%s.%s' % (m.__name__, script_name), globals(), locals(), [m.__name__]))
+  File "M:\app\hackathon\osqa\forum_modules\updates\settings.py", line 6, in <module>
+    from base import generate_installation_key
+  File "M:\app\hackathon\osqa\forum_modules\updates\base.py", line 20, in <module>
+    from forum.models import Question, Answer, Comment, User
+ImportError: cannot import name Question
+M:\app\hackathon\osqa\forum\modules\__init__.py TIME: 2014-11-14 01:54:30,124 MSG: __init__.py:get_modules_script:22 Error importing settings from module <module 'forum_modules.default_badges' from 'M:\app\hackathon\osqa\forum_modules\default_badges\__init__.pyc'>
+Traceback (most recent call last):
+  File "M:\app\hackathon\osqa\forum\modules\__init__.py", line 18, in get_modules_script
+    all.append(__import__('%s.%s' % (m.__name__, script_name), globals(), locals(), [m.__name__]))
+  File "M:\app\hackathon\osqa\forum_modules\default_badges\settings.py", line 1, in <module>
+    from forum.settings import BADGES_SET
+ImportError: cannot import name BADGES_SET
+M:\app\hackathon\osqa\forum\modules\__init__.py TIME: 2014-11-14 01:54:30,592 MSG: __init__.py:get_modules_script:22 Error importing settings from module <module 'forum_modules.updates' from 'M:\app\hackathon\osqa\forum_modules\updates\__init__.pyc'>
+Traceback (most recent call last):
+  File "M:\app\hackathon\osqa\forum\modules\__init__.py", line 18, in get_modules_script
+    all.append(__import__('%s.%s' % (m.__name__, script_name), globals(), locals(), [m.__name__]))
+  File "M:\app\hackathon\osqa\forum_modules\updates\settings.py", line 6, in <module>
+    from base import generate_installation_key
+  File "M:\app\hackathon\osqa\forum_modules\updates\base.py", line 20, in <module>
+    from forum.models import Question, Answer, Comment, User
+ImportError: cannot import name Question
+C:\Python27\lib\site-packages\django\core\handlers\base.py TIME: 2014-11-14 01:54:38,611 MSG: base.py:get_response:176 Invalid HTTP_HOST header: 'localhost:8000'.You may need to add u'localhost' to ALLOWED_HOSTS.
+M:\app\hackathon\osqa\forum\modules\__init__.py TIME: 2014-11-14 01:54:39,424 MSG: __init__.py:get_modules_script:22 Error importing startup from module <module 'forum_modules.exporter' from 'M:\app\hackathon\osqa\forum_modules\exporter\__init__.pyc'>
+Traceback (most recent call last):
+  File "M:\app\hackathon\osqa\forum\modules\__init__.py", line 18, in get_modules_script
+    all.append(__import__('%s.%s' % (m.__name__, script_name), globals(), locals(), [m.__name__]))
+  File "M:\app\hackathon\osqa\forum_modules\exporter\startup.py", line 1, in <module>
+    import views
+  File "M:\app\hackathon\osqa\forum_modules\exporter\views.py", line 19, in <module>
+    from importer import start_import
+  File "M:\app\hackathon\osqa\forum_modules\exporter\importer.py", line 8, in <module>
+    from south.db import db
+ImportError: No module named south.db
+M:\app\hackathon\osqa\forum\modules\__init__.py TIME: 2014-11-14 01:54:44,536 MSG: __init__.py:get_modules_script:22 Error importing urls from module <module 'forum_modules.exporter' from 'M:\app\hackathon\osqa\forum_modules\exporter\__init__.pyc'>
+Traceback (most recent call last):
+  File "M:\app\hackathon\osqa\forum\modules\__init__.py", line 18, in get_modules_script
+    all.append(__import__('%s.%s' % (m.__name__, script_name), globals(), locals(), [m.__name__]))
+  File "M:\app\hackathon\osqa\forum_modules\exporter\urls.py", line 4, in <module>
+    from views import state, running, download
+  File "M:\app\hackathon\osqa\forum_modules\exporter\views.py", line 19, in <module>
+    from importer import start_import
+  File "M:\app\hackathon\osqa\forum_modules\exporter\importer.py", line 8, in <module>
+    from south.db import db
+ImportError: No module named south.db
+M:\app\hackathon\osqa\forum\modules\__init__.py TIME: 2014-11-14 01:54:44,957 MSG: __init__.py:get_modules_script:22 Error importing urls from module <module 'forum_modules.sximporter' from 'M:\app\hackathon\osqa\forum_modules\sximporter\__init__.pyc'>
+Traceback (most recent call last):
+  File "M:\app\hackathon\osqa\forum\modules\__init__.py", line 18, in get_modules_script
+    all.append(__import__('%s.%s' % (m.__name__, script_name), globals(), locals(), [m.__name__]))
+  File "M:\app\hackathon\osqa\forum_modules\sximporter\urls.py", line 4, in <module>
+    from views import sximporter
+  File "M:\app\hackathon\osqa\forum_modules\sximporter\views.py", line 5, in <module>
+    import importer
+  File "M:\app\hackathon\osqa\forum_modules\sximporter\importer.py", line 49, in <module>
+    orm = create_orm()
+  File "M:\app\hackathon\osqa\forum_modules\sximporter\importer.py", line 26, in create_orm
+    from south.orm import FakeORM
+ImportError: No module named south.orm
+C:\Python27\lib\site-packages\django\core\handlers\base.py TIME: 2014-11-14 01:54:54,723 MSG: base.py:get_response:176 Invalid HTTP_HOST header: 'localhost:8000'.You may need to add u'localhost' to ALLOWED_HOSTS.
+C:\Python27\lib\site-packages\django\core\handlers\base.py TIME: 2014-11-14 01:55:01,599 MSG: base.py:get_response:176 Invalid HTTP_HOST header: 'localhost:8000'.You may need to add u'localhost' to ALLOWED_HOSTS.
+C:\Python27\lib\site-packages\django\core\handlers\base.py TIME: 2014-11-14 01:55:35,627 MSG: base.py:get_response:176 Invalid HTTP_HOST header: 'localhost:8000'.You may need to add u'localhost' to ALLOWED_HOSTS.
+C:\Python27\lib\site-packages\django\core\handlers\base.py TIME: 2014-11-14 01:55:54,536 MSG: base.py:get_response:176 Invalid HTTP_HOST header: 'localhost:8000'.You may need to add u'localhost' to ALLOWED_HOSTS.
+C:\Python27\lib\site-packages\django\core\handlers\base.py TIME: 2014-11-14 01:57:03,368 MSG: base.py:get_response:176 Invalid HTTP_HOST header: 'localhost:8000'.You may need to add u'localhost' to ALLOWED_HOSTS.
+M:\app\hackathon\osqa\forum\modules\__init__.py TIME: 2014-11-14 01:57:46,880 MSG: __init__.py:get_modules_script:22 Error importing settings from module <module 'forum_modules.default_badges' from 'M:\app\hackathon\osqa\forum_modules\default_badges\__init__.pyc'>
+Traceback (most recent call last):
+  File "M:\app\hackathon\osqa\forum\modules\__init__.py", line 18, in get_modules_script
+    all.append(__import__('%s.%s' % (m.__name__, script_name), globals(), locals(), [m.__name__]))
+  File "M:\app\hackathon\osqa\forum_modules\default_badges\settings.py", line 1, in <module>
+    from forum.settings import BADGES_SET
+ImportError: cannot import name BADGES_SET
+M:\app\hackathon\osqa\forum\modules\__init__.py TIME: 2014-11-14 01:57:47,411 MSG: __init__.py:get_modules_script:22 Error importing settings from module <module 'forum_modules.updates' from 'M:\app\hackathon\osqa\forum_modules\updates\__init__.pyc'>
+Traceback (most recent call last):
+  File "M:\app\hackathon\osqa\forum\modules\__init__.py", line 18, in get_modules_script
+    all.append(__import__('%s.%s' % (m.__name__, script_name), globals(), locals(), [m.__name__]))
+  File "M:\app\hackathon\osqa\forum_modules\updates\settings.py", line 6, in <module>
+    from base import generate_installation_key
+  File "M:\app\hackathon\osqa\forum_modules\updates\base.py", line 20, in <module>
+    from forum.models import Question, Answer, Comment, User
+ImportError: cannot import name Question
+C:\Python27\lib\site-packages\django\core\handlers\base.py TIME: 2014-11-14 01:58:06,875 MSG: base.py:get_response:176 Invalid HTTP_HOST header: '127.0.0.1:8000'.You may need to add u'127.0.0.1' to ALLOWED_HOSTS.
+M:\app\hackathon\osqa\forum\modules\__init__.py TIME: 2014-11-14 01:58:07,750 MSG: __init__.py:get_modules_script:22 Error importing startup from module <module 'forum_modules.exporter' from 'M:\app\hackathon\osqa\forum_modules\exporter\__init__.pyc'>
+Traceback (most recent call last):
+  File "M:\app\hackathon\osqa\forum\modules\__init__.py", line 18, in get_modules_script
+    all.append(__import__('%s.%s' % (m.__name__, script_name), globals(), locals(), [m.__name__]))
+  File "M:\app\hackathon\osqa\forum_modules\exporter\startup.py", line 1, in <module>
+    import views
+  File "M:\app\hackathon\osqa\forum_modules\exporter\views.py", line 19, in <module>
+    from importer import start_import
+  File "M:\app\hackathon\osqa\forum_modules\exporter\importer.py", line 8, in <module>
+    from south.db import db
+ImportError: No module named south.db
+M:\app\hackathon\osqa\forum\modules\__init__.py TIME: 2014-11-14 01:58:08,815 MSG: __init__.py:get_modules_script:22 Error importing urls from module <module 'forum_modules.exporter' from 'M:\app\hackathon\osqa\forum_modules\exporter\__init__.pyc'>
+Traceback (most recent call last):
+  File "M:\app\hackathon\osqa\forum\modules\__init__.py", line 18, in get_modules_script
+    all.append(__import__('%s.%s' % (m.__name__, script_name), globals(), locals(), [m.__name__]))
+  File "M:\app\hackathon\osqa\forum_modules\exporter\urls.py", line 4, in <module>
+    from views import state, running, download
+  File "M:\app\hackathon\osqa\forum_modules\exporter\views.py", line 19, in <module>
+    from importer import start_import
+  File "M:\app\hackathon\osqa\forum_modules\exporter\importer.py", line 8, in <module>
+    from south.db import db
+ImportError: No module named south.db
+M:\app\hackathon\osqa\forum\modules\__init__.py TIME: 2014-11-14 01:58:09,142 MSG: __init__.py:get_modules_script:22 Error importing urls from module <module 'forum_modules.sximporter' from 'M:\app\hackathon\osqa\forum_modules\sximporter\__init__.pyc'>
+Traceback (most recent call last):
+  File "M:\app\hackathon\osqa\forum\modules\__init__.py", line 18, in get_modules_script
+    all.append(__import__('%s.%s' % (m.__name__, script_name), globals(), locals(), [m.__name__]))
+  File "M:\app\hackathon\osqa\forum_modules\sximporter\urls.py", line 4, in <module>
+    from views import sximporter
+  File "M:\app\hackathon\osqa\forum_modules\sximporter\views.py", line 5, in <module>
+    import importer
+  File "M:\app\hackathon\osqa\forum_modules\sximporter\importer.py", line 49, in <module>
+    orm = create_orm()
+  File "M:\app\hackathon\osqa\forum_modules\sximporter\importer.py", line 26, in create_orm
+    from south.orm import FakeORM
+ImportError: No module named south.orm
+M:\app\hackathon\osqa\forum\modules\__init__.py TIME: 2014-11-14 02:00:20,263 MSG: __init__.py:get_modules_script:22 Error importing settings from module <module 'forum_modules.default_badges' from 'M:\app\hackathon\osqa\forum_modules\default_badges\__init__.pyc'>
+Traceback (most recent call last):
+  File "M:\app\hackathon\osqa\forum\modules\__init__.py", line 18, in get_modules_script
+    all.append(__import__('%s.%s' % (m.__name__, script_name), globals(), locals(), [m.__name__]))
+  File "M:\app\hackathon\osqa\forum_modules\default_badges\settings.py", line 1, in <module>
+    from forum.settings import BADGES_SET
+ImportError: cannot import name BADGES_SET
+M:\app\hackathon\osqa\forum\modules\__init__.py TIME: 2014-11-14 02:00:20,763 MSG: __init__.py:get_modules_script:22 Error importing settings from module <module 'forum_modules.updates' from 'M:\app\hackathon\osqa\forum_modules\updates\__init__.pyc'>
+Traceback (most recent call last):
+  File "M:\app\hackathon\osqa\forum\modules\__init__.py", line 18, in get_modules_script
+    all.append(__import__('%s.%s' % (m.__name__, script_name), globals(), locals(), [m.__name__]))
+  File "M:\app\hackathon\osqa\forum_modules\updates\settings.py", line 6, in <module>
+    from base import generate_installation_key
+  File "M:\app\hackathon\osqa\forum_modules\updates\base.py", line 20, in <module>
+    from forum.models import Question, Answer, Comment, User
+ImportError: cannot import name Question
+C:\Python27\lib\site-packages\django\core\handlers\base.py TIME: 2014-11-14 02:00:30,453 MSG: base.py:get_response:176 Invalid HTTP_HOST header: '127.0.0.1:8000'.You may need to add u'127.0.0.1' to ALLOWED_HOSTS.
+M:\app\hackathon\osqa\forum\modules\__init__.py TIME: 2014-11-14 02:00:31,266 MSG: __init__.py:get_modules_script:22 Error importing startup from module <module 'forum_modules.exporter' from 'M:\app\hackathon\osqa\forum_modules\exporter\__init__.pyc'>
+Traceback (most recent call last):
+  File "M:\app\hackathon\osqa\forum\modules\__init__.py", line 18, in get_modules_script
+    all.append(__import__('%s.%s' % (m.__name__, script_name), globals(), locals(), [m.__name__]))
+  File "M:\app\hackathon\osqa\forum_modules\exporter\startup.py", line 1, in <module>
+    import views
+  File "M:\app\hackathon\osqa\forum_modules\exporter\views.py", line 19, in <module>
+    from importer import start_import
+  File "M:\app\hackathon\osqa\forum_modules\exporter\importer.py", line 8, in <module>
+    from south.db import db
+ImportError: No module named south.db
+M:\app\hackathon\osqa\forum\modules\__init__.py TIME: 2014-11-14 02:00:32,282 MSG: __init__.py:get_modules_script:22 Error importing urls from module <module 'forum_modules.exporter' from 'M:\app\hackathon\osqa\forum_modules\exporter\__init__.pyc'>
+Traceback (most recent call last):
+  File "M:\app\hackathon\osqa\forum\modules\__init__.py", line 18, in get_modules_script
+    all.append(__import__('%s.%s' % (m.__name__, script_name), globals(), locals(), [m.__name__]))
+  File "M:\app\hackathon\osqa\forum_modules\exporter\urls.py", line 4, in <module>
+    from views import state, running, download
+  File "M:\app\hackathon\osqa\forum_modules\exporter\views.py", line 19, in <module>
+    from importer import start_import
+  File "M:\app\hackathon\osqa\forum_modules\exporter\importer.py", line 8, in <module>
+    from south.db import db
+ImportError: No module named south.db
+M:\app\hackathon\osqa\forum\modules\__init__.py TIME: 2014-11-14 02:00:32,595 MSG: __init__.py:get_modules_script:22 Error importing urls from module <module 'forum_modules.sximporter' from 'M:\app\hackathon\osqa\forum_modules\sximporter\__init__.pyc'>
+Traceback (most recent call last):
+  File "M:\app\hackathon\osqa\forum\modules\__init__.py", line 18, in get_modules_script
+    all.append(__import__('%s.%s' % (m.__name__, script_name), globals(), locals(), [m.__name__]))
+  File "M:\app\hackathon\osqa\forum_modules\sximporter\urls.py", line 4, in <module>
+    from views import sximporter
+  File "M:\app\hackathon\osqa\forum_modules\sximporter\views.py", line 5, in <module>
+    import importer
+  File "M:\app\hackathon\osqa\forum_modules\sximporter\importer.py", line 49, in <module>
+    orm = create_orm()
+  File "M:\app\hackathon\osqa\forum_modules\sximporter\importer.py", line 26, in create_orm
+    from south.orm import FakeORM
+ImportError: No module named south.orm
+C:\Python27\lib\site-packages\django\core\handlers\base.py TIME: 2014-11-14 02:01:50,532 MSG: base.py:get_response:176 Invalid HTTP_HOST header: '127.0.0.1:8000'.You may need to add u'127.0.0.1' to ALLOWED_HOSTS.
+C:\Python27\lib\site-packages\django\core\handlers\base.py TIME: 2014-11-14 02:01:55,641 MSG: base.py:get_response:176 Invalid HTTP_HOST header: '127.0.0.1:8000'.You may need to add u'127.0.0.1' to ALLOWED_HOSTS.
+M:\app\hackathon\osqa\forum\modules\__init__.py TIME: 2014-11-14 02:05:57,901 MSG: __init__.py:get_modules_script:22 Error importing settings from module <module 'forum_modules.default_badges' from 'M:\app\hackathon\osqa\forum_modules\default_badges\__init__.pyc'>
+Traceback (most recent call last):
+  File "M:\app\hackathon\osqa\forum\modules\__init__.py", line 18, in get_modules_script
+    all.append(__import__('%s.%s' % (m.__name__, script_name), globals(), locals(), [m.__name__]))
+  File "M:\app\hackathon\osqa\forum_modules\default_badges\settings.py", line 1, in <module>
+    from forum.settings import BADGES_SET
+ImportError: cannot import name BADGES_SET
+M:\app\hackathon\osqa\forum\modules\__init__.py TIME: 2014-11-14 02:05:58,371 MSG: __init__.py:get_modules_script:22 Error importing settings from module <module 'forum_modules.updates' from 'M:\app\hackathon\osqa\forum_modules\updates\__init__.pyc'>
+Traceback (most recent call last):
+  File "M:\app\hackathon\osqa\forum\modules\__init__.py", line 18, in get_modules_script
+    all.append(__import__('%s.%s' % (m.__name__, script_name), globals(), locals(), [m.__name__]))
+  File "M:\app\hackathon\osqa\forum_modules\updates\settings.py", line 6, in <module>
+    from base import generate_installation_key
+  File "M:\app\hackathon\osqa\forum_modules\updates\base.py", line 20, in <module>
+    from forum.models import Question, Answer, Comment, User
+ImportError: cannot import name Question
+M:\app\hackathon\osqa\forum\modules\__init__.py TIME: 2014-11-14 02:06:15,924 MSG: __init__.py:get_modules_script:22 Error importing settings from module <module 'forum_modules.default_badges' from 'M:\app\hackathon\osqa\forum_modules\default_badges\__init__.pyc'>
+Traceback (most recent call last):
+  File "M:\app\hackathon\osqa\forum\modules\__init__.py", line 18, in get_modules_script
+    all.append(__import__('%s.%s' % (m.__name__, script_name), globals(), locals(), [m.__name__]))
+  File "M:\app\hackathon\osqa\forum_modules\default_badges\settings.py", line 1, in <module>
+    from forum.settings import BADGES_SET
+ImportError: cannot import name BADGES_SET
+M:\app\hackathon\osqa\forum\modules\__init__.py TIME: 2014-11-14 02:06:16,392 MSG: __init__.py:get_modules_script:22 Error importing settings from module <module 'forum_modules.updates' from 'M:\app\hackathon\osqa\forum_modules\updates\__init__.pyc'>
+Traceback (most recent call last):
+  File "M:\app\hackathon\osqa\forum\modules\__init__.py", line 18, in get_modules_script
+    all.append(__import__('%s.%s' % (m.__name__, script_name), globals(), locals(), [m.__name__]))
+  File "M:\app\hackathon\osqa\forum_modules\updates\settings.py", line 6, in <module>
+    from base import generate_installation_key
+  File "M:\app\hackathon\osqa\forum_modules\updates\base.py", line 20, in <module>
+    from forum.models import Question, Answer, Comment, User
+ImportError: cannot import name Question
+M:\app\hackathon\osqa\forum\modules\__init__.py TIME: 2014-11-14 02:06:32,380 MSG: __init__.py:get_modules_script:22 Error importing settings from module <module 'forum_modules.default_badges' from 'M:\app\hackathon\osqa\forum_modules\default_badges\__init__.pyc'>
+Traceback (most recent call last):
+  File "M:\app\hackathon\osqa\forum\modules\__init__.py", line 18, in get_modules_script
+    all.append(__import__('%s.%s' % (m.__name__, script_name), globals(), locals(), [m.__name__]))
+  File "M:\app\hackathon\osqa\forum_modules\default_badges\settings.py", line 1, in <module>
+    from forum.settings import BADGES_SET
+ImportError: cannot import name BADGES_SET
+M:\app\hackathon\osqa\forum\modules\__init__.py TIME: 2014-11-14 02:06:32,848 MSG: __init__.py:get_modules_script:22 Error importing settings from module <module 'forum_modules.updates' from 'M:\app\hackathon\osqa\forum_modules\updates\__init__.pyc'>
+Traceback (most recent call last):
+  File "M:\app\hackathon\osqa\forum\modules\__init__.py", line 18, in get_modules_script
+    all.append(__import__('%s.%s' % (m.__name__, script_name), globals(), locals(), [m.__name__]))
+  File "M:\app\hackathon\osqa\forum_modules\updates\settings.py", line 6, in <module>
+    from base import generate_installation_key
+  File "M:\app\hackathon\osqa\forum_modules\updates\base.py", line 20, in <module>
+    from forum.models import Question, Answer, Comment, User
+ImportError: cannot import name Question
+C:\Python27\lib\site-packages\django\core\handlers\base.py TIME: 2014-11-14 02:06:42,132 MSG: base.py:get_response:176 Invalid HTTP_HOST header: '127.0.0.1:8000'.You may need to add u'127.0.0.1' to ALLOWED_HOSTS.
+M:\app\hackathon\osqa\forum\modules\__init__.py TIME: 2014-11-14 02:10:31,431 MSG: __init__.py:get_modules_script:22 Error importing settings from module <module 'forum_modules.default_badges' from 'M:\app\hackathon\osqa\forum_modules\default_badges\__init__.pyc'>
+Traceback (most recent call last):
+  File "M:\app\hackathon\osqa\forum\modules\__init__.py", line 18, in get_modules_script
+    all.append(__import__('%s.%s' % (m.__name__, script_name), globals(), locals(), [m.__name__]))
+  File "M:\app\hackathon\osqa\forum_modules\default_badges\settings.py", line 1, in <module>
+    from forum.settings import BADGES_SET
+ImportError: cannot import name BADGES_SET
+M:\app\hackathon\osqa\forum\modules\__init__.py TIME: 2014-11-14 02:10:32,431 MSG: __init__.py:get_modules_script:22 Error importing settings from module <module 'forum_modules.updates' from 'M:\app\hackathon\osqa\forum_modules\updates\__init__.pyc'>
+Traceback (most recent call last):
+  File "M:\app\hackathon\osqa\forum\modules\__init__.py", line 18, in get_modules_script
+    all.append(__import__('%s.%s' % (m.__name__, script_name), globals(), locals(), [m.__name__]))
+  File "M:\app\hackathon\osqa\forum_modules\updates\settings.py", line 6, in <module>
+    from base import generate_installation_key
+  File "M:\app\hackathon\osqa\forum_modules\updates\base.py", line 20, in <module>
+    from forum.models import Question, Answer, Comment, User
+ImportError: cannot import name Question
+M:\app\hackathon\osqa\forum\modules\__init__.py TIME: 2014-11-14 02:11:33,234 MSG: __init__.py:get_modules_script:22 Error importing settings from module <module 'forum_modules.updates' from 'M:\app\hackathon\osqa\forum_modules\updates\__init__.pyc'>
+Traceback (most recent call last):
+  File "M:\app\hackathon\osqa\forum\modules\__init__.py", line 18, in get_modules_script
+    all.append(__import__('%s.%s' % (m.__name__, script_name), globals(), locals(), [m.__name__]))
+  File "M:\app\hackathon\osqa\forum_modules\updates\settings.py", line 6, in <module>
+    from base import generate_installation_key
+  File "M:\app\hackathon\osqa\forum_modules\updates\base.py", line 20, in <module>
+    from forum.models import Question, Answer, Comment, User
+ImportError: cannot import name Question
+C:\Python27\lib\site-packages\django\core\handlers\base.py TIME: 2014-11-14 02:11:42,503 MSG: base.py:get_response:176 Invalid HTTP_HOST header: '127.0.0.1:8000'.You may need to add u'127.0.0.1' to ALLOWED_HOSTS.
+C:\Python27\lib\site-packages\django\core\handlers\base.py TIME: 2014-11-14 02:11:42,503 MSG: base.py:get_response:176 Invalid HTTP_HOST header: '127.0.0.1:8000'.You may need to add u'127.0.0.1' to ALLOWED_HOSTS.
+C:\Python27\lib\site-packages\django\core\handlers\base.py TIME: 2014-11-14 02:11:42,503 MSG: base.py:get_response:176 Invalid HTTP_HOST header: '127.0.0.1:8000'.You may need to add u'127.0.0.1' to ALLOWED_HOSTS.
+M:\app\hackathon\osqa\forum\modules\__init__.py TIME: 2014-11-14 02:15:36,137 MSG: __init__.py:get_modules_script:22 Error importing settings from module <module 'forum_modules.updates' from 'M:\app\hackathon\osqa\forum_modules\updates\__init__.pyc'>
+Traceback (most recent call last):
+  File "M:\app\hackathon\osqa\forum\modules\__init__.py", line 18, in get_modules_script
+    all.append(__import__('%s.%s' % (m.__name__, script_name), globals(), locals(), [m.__name__]))
+  File "M:\app\hackathon\osqa\forum_modules\updates\settings.py", line 6, in <module>
+    from base import generate_installation_key
+  File "M:\app\hackathon\osqa\forum_modules\updates\base.py", line 20, in <module>
+    from forum.models import Question, Answer, Comment, User
+ImportError: cannot import name Question
+C:\Python27\lib\site-packages\django\core\handlers\base.py TIME: 2014-11-14 02:15:42,819 MSG: base.py:get_response:176 Invalid HTTP_HOST header: '127.0.0.1:8000'.You may need to add u'127.0.0.1' to ALLOWED_HOSTS.
+C:\Python27\lib\site-packages\django\core\handlers\base.py TIME: 2014-11-14 02:15:43,898 MSG: base.py:handle_uncaught_exception:224 Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 179, in get_response
+    callback, param_dict = resolver.resolve400()
+  File "C:\Python27\lib\site-packages\django\core\urlresolvers.py", line 382, in resolve400
+    return self._resolve_special('400')
+  File "C:\Python27\lib\site-packages\django\core\urlresolvers.py", line 373, in _resolve_special
+    callback = getattr(self.urlconf_module, 'handler%s' % view_type, None)
+  File "C:\Python27\lib\site-packages\django\core\urlresolvers.py", line 360, in urlconf_module
+    self._urlconf_module = import_module(self.urlconf_name)
+  File "C:\Python27\lib\site-packages\django\utils\importlib.py", line 40, in import_module
+    __import__(name)
+  File "M:\app\hackathon\osqa\urls.py", line 6, in <module>
+    (r'', include('forum.urls')),
+  File "C:\Python27\lib\site-packages\django\conf\urls\__init__.py", line 26, in include
+    urlconf_module = import_module(urlconf_module)
+  File "C:\Python27\lib\site-packages\django\utils\importlib.py", line 40, in import_module
+    __import__(name)
+  File "M:\app\hackathon\osqa\forum\urls.py", line 1, in <module>
+    import startup
+  File "M:\app\hackathon\osqa\forum\startup.py", line 11, in <module>
+    import forum.badges
+ImportError: No module named badges
+M:\app\hackathon\osqa\forum\modules\__init__.py TIME: 2014-11-14 02:18:06,625 MSG: __init__.py:get_modules_script:22 Error importing settings from module <module 'forum_modules.updates' from 'M:\app\hackathon\osqa\forum_modules\updates\__init__.pyc'>
+Traceback (most recent call last):
+  File "M:\app\hackathon\osqa\forum\modules\__init__.py", line 18, in get_modules_script
+    all.append(__import__('%s.%s' % (m.__name__, script_name), globals(), locals(), [m.__name__]))
+  File "M:\app\hackathon\osqa\forum_modules\updates\settings.py", line 6, in <module>
+    from base import generate_installation_key
+  File "M:\app\hackathon\osqa\forum_modules\updates\base.py", line 20, in <module>
+    from forum.models import Question, Answer, Comment, User
+ImportError: cannot import name Question
+C:\Python27\lib\site-packages\django\core\handlers\base.py TIME: 2014-11-14 02:18:16,546 MSG: base.py:get_response:176 Invalid HTTP_HOST header: '127.0.0.1:8000'.You may need to add u'127.0.0.1' to ALLOWED_HOSTS.
+M:\app\hackathon\osqa\forum\modules\__init__.py TIME: 2014-11-14 02:22:19,809 MSG: __init__.py:get_modules_script:22 Error importing settings from module <module 'forum_modules.updates' from 'M:\app\hackathon\osqa\forum_modules\updates\__init__.pyc'>
+Traceback (most recent call last):
+  File "M:\app\hackathon\osqa\forum\modules\__init__.py", line 18, in get_modules_script
+    all.append(__import__('%s.%s' % (m.__name__, script_name), globals(), locals(), [m.__name__]))
+  File "M:\app\hackathon\osqa\forum_modules\updates\settings.py", line 6, in <module>
+    from base import generate_installation_key
+  File "M:\app\hackathon\osqa\forum_modules\updates\base.py", line 20, in <module>
+    from forum.models import  Answer, Comment, Question,User
+ImportError: cannot import name Answer
+M:\app\hackathon\osqa\forum\modules\__init__.py TIME: 2014-11-14 02:22:40,065 MSG: __init__.py:get_modules_script:22 Error importing settings from module <module 'forum_modules.updates' from 'M:\app\hackathon\osqa\forum_modules\updates\__init__.pyc'>
+Traceback (most recent call last):
+  File "M:\app\hackathon\osqa\forum\modules\__init__.py", line 18, in get_modules_script
+    all.append(__import__('%s.%s' % (m.__name__, script_name), globals(), locals(), [m.__name__]))
+  File "M:\app\hackathon\osqa\forum_modules\updates\settings.py", line 6, in <module>
+    from base import generate_installation_key
+  File "M:\app\hackathon\osqa\forum_modules\updates\base.py", line 20, in <module>
+    from forum.models import  Answer, Comment, Question,User
+ImportError: cannot import name Answer
+M:\app\hackathon\osqa\forum\modules\__init__.py TIME: 2014-11-14 02:23:26,457 MSG: __init__.py:get_modules_script:22 Error importing settings from module <module 'forum_modules.updates' from 'M:\app\hackathon\osqa\forum_modules\updates\__init__.pyc'>
+Traceback (most recent call last):
+  File "M:\app\hackathon\osqa\forum\modules\__init__.py", line 18, in get_modules_script
+    all.append(__import__('%s.%s' % (m.__name__, script_name), globals(), locals(), [m.__name__]))
+  File "M:\app\hackathon\osqa\forum_modules\updates\settings.py", line 6, in <module>
+    from base import generate_installation_key
+  File "M:\app\hackathon\osqa\forum_modules\updates\base.py", line 21, in <module>
+    from forum.models import  Answer, Comment, Question,User
+ImportError: cannot import name Answer
+M:\app\hackathon\osqa\forum\modules\__init__.py TIME: 2014-11-14 02:24:54,779 MSG: __init__.py:get_modules_script:22 Error importing settings from module <module 'forum_modules.updates' from 'M:\app\hackathon\osqa\forum_modules\updates\__init__.pyc'>
+Traceback (most recent call last):
+  File "M:\app\hackathon\osqa\forum\modules\__init__.py", line 18, in get_modules_script
+    all.append(__import__('%s.%s' % (m.__name__, script_name), globals(), locals(), [m.__name__]))
+  File "M:\app\hackathon\osqa\forum_modules\updates\settings.py", line 6, in <module>
+    from base import generate_installation_key
+  File "M:\app\hackathon\osqa\forum_modules\updates\base.py", line 21, in <module>
+    from forum.models import Answer, Comment, Question, User
+ImportError: cannot import name Answer
+M:\app\hackathon\osqa\forum\modules\__init__.py TIME: 2014-11-14 02:25:29,259 MSG: __init__.py:get_modules_script:22 Error importing settings from module <module 'forum_modules.updates' from 'M:\app\hackathon\osqa\forum_modules\updates\__init__.pyc'>
+Traceback (most recent call last):
+  File "M:\app\hackathon\osqa\forum\modules\__init__.py", line 18, in get_modules_script
+    all.append(__import__('%s.%s' % (m.__name__, script_name), globals(), locals(), [m.__name__]))
+  File "M:\app\hackathon\osqa\forum_modules\updates\settings.py", line 6, in <module>
+    from base import generate_installation_key
+  File "M:\app\hackathon\osqa\forum_modules\updates\base.py", line 21, in <module>
+    from forum.models import Answer, Comment, Question, User
+ImportError: cannot import name Answer
+C:\Python27\lib\site-packages\django\core\handlers\base.py TIME: 2014-11-14 02:25:34,493 MSG: base.py:get_response:176 Invalid HTTP_HOST header: '127.0.0.1:8000'.You may need to add u'127.0.0.1' to ALLOWED_HOSTS.
+M:\app\hackathon\osqa\forum\modules\__init__.py TIME: 2014-11-14 02:27:48,822 MSG: __init__.py:get_modules_script:22 Error importing settings from module <module 'forum_modules.updates' from 'M:\app\hackathon\osqa\forum_modules\updates\__init__.pyc'>
+Traceback (most recent call last):
+  File "M:\app\hackathon\osqa\forum\modules\__init__.py", line 18, in get_modules_script
+    all.append(__import__('%s.%s' % (m.__name__, script_name), globals(), locals(), [m.__name__]))
+  File "M:\app\hackathon\osqa\forum_modules\updates\settings.py", line 6, in <module>
+    from base import generate_installation_key
+  File "M:\app\hackathon\osqa\forum_modules\updates\base.py", line 21, in <module>
+    from forum.models import Answer, Comment, Question, User
+ImportError: cannot import name Answer
+C:\Python27\lib\site-packages\django\core\handlers\base.py TIME: 2014-11-14 02:29:17,132 MSG: base.py:get_response:176 Invalid HTTP_HOST header: '127.0.0.1:8000'.You may need to add u'127.0.0.1' to ALLOWED_HOSTS.
+C:\Python27\lib\site-packages\markdown\__init__.py TIME: 2014-11-14 02:31:43,127 MSG: __init__.py:build_extension:245 Successfuly imported extension module "mdx_settingsparser".
+C:\Python27\lib\site-packages\django\core\handlers\base.py TIME: 2014-11-14 02:31:43,174 MSG: base.py:handle_uncaught_exception:224 Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "M:\app\hackathon\osqa\forum\modules\decorators.py", line 95, in decorated
+    return decoratable(*args, **kwargs)
+  File "M:\app\hackathon\osqa\forum\modules\decorators.py", line 60, in __call__
+    res = dec(res, *args, **kwargs)
+  File "M:\app\hackathon\osqa\forum\views\decorators.py", line 35, in decorated
+    context_instance=RequestContext(request))
+  File "C:\Python27\lib\site-packages\django\shortcuts\__init__.py", line 29, in render_to_response
+    return HttpResponse(loader.render_to_string(*args, **kwargs), **httpresponse_kwargs)
+  File "C:\Python27\lib\site-packages\django\template\loader.py", line 169, in render_to_string
+    return t.render(context_instance)
+  File "C:\Python27\lib\site-packages\django\template\base.py", line 140, in render
+    return self._render(context)
+  File "C:\Python27\lib\site-packages\django\template\base.py", line 134, in _render
+    return self.nodelist.render(context)
+  File "C:\Python27\lib\site-packages\django\template\base.py", line 840, in render
+    bit = self.render_node(node, context)
+  File "C:\Python27\lib\site-packages\django\template\base.py", line 854, in render_node
+    return node.render(context)
+  File "C:\Python27\lib\site-packages\django\template\loader_tags.py", line 123, in render
+    return compiled_parent._render(context)
+  File "C:\Python27\lib\site-packages\django\template\base.py", line 134, in _render
+    return self.nodelist.render(context)
+  File "C:\Python27\lib\site-packages\django\template\base.py", line 840, in render
+    bit = self.render_node(node, context)
+  File "C:\Python27\lib\site-packages\django\template\base.py", line 854, in render_node
+    return node.render(context)
+  File "C:\Python27\lib\site-packages\django\template\loader_tags.py", line 123, in render
+    return compiled_parent._render(context)
+  File "C:\Python27\lib\site-packages\django\template\base.py", line 134, in _render
+    return self.nodelist.render(context)
+  File "C:\Python27\lib\site-packages\django\template\base.py", line 840, in render
+    bit = self.render_node(node, context)
+  File "C:\Python27\lib\site-packages\django\template\base.py", line 854, in render_node
+    return node.render(context)
+  File "C:\Python27\lib\site-packages\django\template\loader_tags.py", line 123, in render
+    return compiled_parent._render(context)
+  File "C:\Python27\lib\site-packages\django\template\base.py", line 134, in _render
+    return self.nodelist.render(context)
+  File "C:\Python27\lib\site-packages\django\template\base.py", line 840, in render
+    bit = self.render_node(node, context)
+  File "C:\Python27\lib\site-packages\django\template\base.py", line 854, in render_node
+    return node.render(context)
+  File "C:\Python27\lib\site-packages\django\template\loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "C:\Python27\lib\site-packages\django\template\base.py", line 840, in render
+    bit = self.render_node(node, context)
+  File "C:\Python27\lib\site-packages\django\template\base.py", line 854, in render_node
+    return node.render(context)
+  File "C:\Python27\lib\site-packages\django\template\loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "C:\Python27\lib\site-packages\django\template\base.py", line 840, in render
+    bit = self.render_node(node, context)
+  File "C:\Python27\lib\site-packages\django\template\base.py", line 854, in render_node
+    return node.render(context)
+  File "C:\Python27\lib\site-packages\django\template\base.py", line 1196, in render
+    _dict = func(*resolved_args, **resolved_kwargs)
+  File "M:\app\hackathon\osqa\forum\templatetags\general_sidebar_tags.py", line 21, in sidebar_upper
+    'content': static_content(settings.SIDEBAR_UPPER_TEXT, settings.SIDEBAR_UPPER_RENDER_MODE),
+  File "M:\app\hackathon\osqa\forum\templatetags\extra_filters.py", line 59, in static_content
+    return mark_safe(markdown.markdown(unicode(content), ["settingsparser"]))
+  File "C:\Python27\lib\site-packages\markdown\__init__.py", line 464, in markdown
+    md = Markdown(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\markdown\__init__.py", line 154, in __init__
+    configs=kwargs.get('extension_configs', {}))
+  File "C:\Python27\lib\site-packages\markdown\__init__.py", line 180, in registerExtensions
+    ext = self.build_extension(ext, configs.get(ext, {}))
+  File "C:\Python27\lib\site-packages\markdown\__init__.py", line 265, in build_extension
+    return module.makeExtension(**configs)
+  File "M:\app\hackathon\osqa\forum\markdownext\mdx_settingsparser.py", line 46, in makeExtension
+    return SettingsExtension(configs=configs)
+  File "M:\app\hackathon\osqa\forum\markdownext\mdx_settingsparser.py", line 13, in __init__
+    for key, value in configs:
+TypeError: 'NoneType' object is not iterable
+M:\app\hackathon\osqa\forum\views\meta.py TIME: 2014-11-14 02:31:43,282 MSG: meta.py:error_handler:202 
+        error executing request:
+        PATH: /
+        USER: <anonymous>
+        METHOD: GET
+        POST PARAMETERS:
+        None
+        GET PARAMETERS:
+        None
+        HTTP HEADERS:
+        		TMP: C:\Users\ADMINI~1\AppData\Local\Temp\1
+		COMPUTERNAME: GNARLYDELL01
+		wsgi.multiprocess: False
+		PROCESSOR_LEVEL: 6
+		RUN_MAIN: true
+		HTTP_COOKIE: s_pers=%20s_fid%3D5AED55BDC443413A-0CDA7FAB97B484F6%7C1465095139752%3B%20s_vs%3D1%7C1401938539755%3B%20s_nr%3D1401936739758-Repeat%7C1433472739758%3B
+		USERDOMAIN: GNARLYDELL01
+		SERVER_PROTOCOL: HTTP/1.1
+		SERVER_SOFTWARE: WSGIServer/0.1 Python/2.7.8
+		PSMODULEPATH: C:\Windows\system32\WindowsPowerShell\v1.0\Modules\
+		SCRIPT_NAME: 
+		COMMONPROGRAMFILES: C:\Program Files (x86)\Common Files
+		PROCESSOR_IDENTIFIER: Intel64 Family 6 Model 45 Stepping 7, GenuineIntel
+		REQUEST_METHOD: GET
+		LM_LICENSE_FILE: 26585@nandlic1
+		PROCESSOR_REVISION: 2d07
+		PATH: C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Application\Perl\c\bin;C:\Application\Perl\perl\site\bin;C:\Application\Perl\perl\bin;C:\Python27;C:\Python27\Scripts
+		QUERY_STRING: 
+		SYSTEMROOT: C:\Windows
+		PROGRAMFILES(X86): C:\Program Files (x86)
+		CONTENT_LENGTH: 
+		TERM: dumb
+		HTTP_USER_AGENT: Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0)
+		HTTP_CONNECTION: Keep-Alive
+		TEMP: C:\Users\ADMINI~1\AppData\Local\Temp\1
+		REMOTE_ADDR: 127.0.0.1
+		COMMONPROGRAMFILES(X86): C:\Program Files (x86)\Common Files
+		PROCESSOR_ARCHITECTURE: x86
+		wsgi.url_scheme: http
+		ALLUSERSPROFILE: C:\ProgramData
+		SERVER_PORT: 8000
+		LOCALAPPDATA: C:\Users\Administrator\AppData\Local
+		HOMEPATH: \Users\Administrator
+		USERDOMAIN_ROAMINGPROFILE: GNARLYDELL01
+		PROGRAMW6432: C:\Program Files
+		USERNAME: Administrator
+		HTTP_ACCEPT: text/html, application/xhtml+xml, */*
+		LOGONSERVER: \\GNARLYDELL01
+		PROMPT: $P$G
+		COMSPEC: C:\Windows\system32\cmd.exe
+		PROGRAMDATA: C:\ProgramData
+		wsgi.multithread: True
+		CSRF_COOKIE: UpkXOQAwPwdVdgp2F5ZezuPvOeNXK9uF
+		wsgi.input: <socket._fileobject object at 0x03477F70>
+		wsgi.errors: <open file '<stderr>', mode 'w' at 0x007ED0D0>
+		HTTP_HOST: 127.0.0.1:8000
+		SESSIONNAME: RDP-Tcp#0
+		PATHEXT: .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+		CSRF_COOKIE_USED: True
+		PATH_INFO: /
+		CLIENTNAME: HQE201334
+		FP_NO_HOST_CHECK: NO
+		WINDIR: C:\Windows
+		wsgi.file_wrapper: wsgiref.util.FileWrapper
+		HTTP_ACCEPT_ENCODING: gzip, deflate
+		wsgi.version: (1, 0)
+		HOMEDRIVE: C:
+		APPDATA: C:\Users\Administrator\AppData\Roaming
+		SERVER_NAME: GNARLYDELL01
+		PROGRAMFILES: C:\Program Files (x86)
+		REMOTE_HOST: 
+		SYSTEMDRIVE: C:
+		GATEWAY_INTERFACE: CGI/1.1
+		HTTP_ACCEPT_LANGUAGE: en-US
+		NUMBER_OF_PROCESSORS: 32
+		wsgi.run_once: False
+		DJANGO_SETTINGS_MODULE: settings
+		CONTENT_TYPE: text/plain
+		PROCESSOR_ARCHITEW6432: AMD64
+		COMMONPROGRAMW6432: C:\Program Files\Common Files
+		OS: Windows_NT
+		PUBLIC: C:\Users\Public
+		USERPROFILE: C:\Users\Administrator
+
+        COOKIES:
+        		greeting_set: True
+		s_pers: %20s_fid%3D5AED55BDC443413A-0CDA7FAB97B484F6%7C1465095139752%3B%20s_vs%3D1%7C1401938539755%3B%20s_nr%3D1401936739758-Repeat%7C1433472739758%3B
+
+        EXCEPTION INFO:
+        		Traceback (most recent call last):
+		  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 112, in get_response
+		    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+		  File "M:\app\hackathon\osqa\forum\modules\decorators.py", line 95, in decorated
+		    return decoratable(*args, **kwargs)
+		  File "M:\app\hackathon\osqa\forum\modules\decorators.py", line 60, in __call__
+		    res = dec(res, *args, **kwargs)
+		  File "M:\app\hackathon\osqa\forum\views\decorators.py", line 35, in decorated
+		    context_instance=RequestContext(request))
+		  File "C:\Python27\lib\site-packages\django\shortcuts\__init__.py", line 29, in render_to_response
+		    return HttpResponse(loader.render_to_string(*args, **kwargs), **httpresponse_kwargs)
+		  File "C:\Python27\lib\site-packages\django\template\loader.py", line 169, in render_to_string
+		    return t.render(context_instance)
+		  File "C:\Python27\lib\site-packages\django\template\base.py", line 140, in render
+		    return self._render(context)
+		  File "C:\Python27\lib\site-packages\django\template\base.py", line 134, in _render
+		    return self.nodelist.render(context)
+		  File "C:\Python27\lib\site-packages\django\template\base.py", line 840, in render
+		    bit = self.render_node(node, context)
+		  File "C:\Python27\lib\site-packages\django\template\base.py", line 854, in render_node
+		    return node.render(context)
+		  File "C:\Python27\lib\site-packages\django\template\loader_tags.py", line 123, in render
+		    return compiled_parent._render(context)
+		  File "C:\Python27\lib\site-packages\django\template\base.py", line 134, in _render
+		    return self.nodelist.render(context)
+		  File "C:\Python27\lib\site-packages\django\template\base.py", line 840, in render
+		    bit = self.render_node(node, context)
+		  File "C:\Python27\lib\site-packages\django\template\base.py", line 854, in render_node
+		    return node.render(context)
+		  File "C:\Python27\lib\site-packages\django\template\loader_tags.py", line 123, in render
+		    return compiled_parent._render(context)
+		  File "C:\Python27\lib\site-packages\django\template\base.py", line 134, in _render
+		    return self.nodelist.render(context)
+		  File "C:\Python27\lib\site-packages\django\template\base.py", line 840, in render
+		    bit = self.render_node(node, context)
+		  File "C:\Python27\lib\site-packages\django\template\base.py", line 854, in render_node
+		    return node.render(context)
+		  File "C:\Python27\lib\site-packages\django\template\loader_tags.py", line 123, in render
+		    return compiled_parent._render(context)
+		  File "C:\Python27\lib\site-packages\django\template\base.py", line 134, in _render
+		    return self.nodelist.render(context)
+		  File "C:\Python27\lib\site-packages\django\template\base.py", line 840, in render
+		    bit = self.render_node(node, context)
+		  File "C:\Python27\lib\site-packages\django\template\base.py", line 854, in render_node
+		    return node.render(context)
+		  File "C:\Python27\lib\site-packages\django\template\loader_tags.py", line 62, in render
+		    result = block.nodelist.render(context)
+		  File "C:\Python27\lib\site-packages\django\template\base.py", line 840, in render
+		    bit = self.render_node(node, context)
+		  File "C:\Python27\lib\site-packages\django\template\base.py", line 854, in render_node
+		    return node.render(context)
+		  File "C:\Python27\lib\site-packages\django\template\loader_tags.py", line 62, in render
+		    result = block.nodelist.render(context)
+		  File "C:\Python27\lib\site-packages\django\template\base.py", line 840, in render
+		    bit = self.render_node(node, context)
+		  File "C:\Python27\lib\site-packages\django\template\base.py", line 854, in render_node
+		    return node.render(context)
+		  File "C:\Python27\lib\site-packages\django\template\base.py", line 1196, in render
+		    _dict = func(*resolved_args, **resolved_kwargs)
+		  File "M:\app\hackathon\osqa\forum\templatetags\general_sidebar_tags.py", line 21, in sidebar_upper
+		    'content': static_content(settings.SIDEBAR_UPPER_TEXT, settings.SIDEBAR_UPPER_RENDER_MODE),
+		  File "M:\app\hackathon\osqa\forum\templatetags\extra_filters.py", line 59, in static_content
+		    return mark_safe(markdown.markdown(unicode(content), ["settingsparser"]))
+		  File "C:\Python27\lib\site-packages\markdown\__init__.py", line 464, in markdown
+		    md = Markdown(*args, **kwargs)
+		  File "C:\Python27\lib\site-packages\markdown\__init__.py", line 154, in __init__
+		    configs=kwargs.get('extension_configs', {}))
+		  File "C:\Python27\lib\site-packages\markdown\__init__.py", line 180, in registerExtensions
+		    ext = self.build_extension(ext, configs.get(ext, {}))
+		  File "C:\Python27\lib\site-packages\markdown\__init__.py", line 265, in build_extension
+		    return module.makeExtension(**configs)
+		  File "M:\app\hackathon\osqa\forum\markdownext\mdx_settingsparser.py", line 46, in makeExtension
+		    return SettingsExtension(configs=configs)
+		  File "M:\app\hackathon\osqa\forum\markdownext\mdx_settingsparser.py", line 13, in __init__
+		    for key, value in configs:
+		TypeError: 'NoneType' object is not iterable
+		
+
+        
+C:\Python27\lib\site-packages\django\core\handlers\base.py TIME: 2014-11-14 02:31:44,016 MSG: base.py:handle_uncaught_exception:224 Internal Server Error: /upfiles/logo.png
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 88, in get_response
+    response = middleware_method(request)
+  File "M:\app\hackathon\osqa\forum\middleware\extended_user.py", line 9, in process_request
+    super(ExtendedUser, self).process_request(request)
+  File "M:\app\hackathon\osqa\forum\modules\decorators.py", line 77, in decoratable_method
+    return decoratable(self, *args, **kwargs)
+  File "M:\app\hackathon\osqa\forum\modules\decorators.py", line 60, in __call__
+    res = dec(res, *args, **kwargs)
+  File "M:\app\hackathon\osqa\forum_modules\updates\startup.py", line 20, in process_request
+    update_trigger()
+  File "M:\app\hackathon\osqa\forum_modules\updates\base.py", line 178, in update_trigger
+    if (now - settings.LATEST_UPDATE_DATETIME) > datetime.timedelta(days=1):
+  File "M:\app\hackathon\osqa\forum\settings\base.py", line 22, in wrapper
+    return self.value.__getattribute__(name)(*args, **kwargs)
+  File "M:\app\hackathon\osqa\forum\settings\base.py", line 63, in value
+    self.save(self.default)
+  File "M:\app\hackathon\osqa\forum\settings\base.py", line 86, in save
+    kv.save()
+  File "M:\app\hackathon\osqa\forum\models\base.py", line 288, in save
+    super(BaseModel, self).save()
+  File "C:\Python27\lib\site-packages\django\db\models\base.py", line 545, in save
+    force_update=force_update, update_fields=update_fields)
+  File "C:\Python27\lib\site-packages\django\db\models\base.py", line 573, in save_base
+    updated = self._save_table(raw, cls, force_insert, force_update, using, update_fields)
+  File "C:\Python27\lib\site-packages\django\db\models\base.py", line 654, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "C:\Python27\lib\site-packages\django\db\models\base.py", line 687, in _do_insert
+    using=using, raw=raw)
+  File "C:\Python27\lib\site-packages\django\db\models\manager.py", line 232, in _insert
+    return insert_query(self.model, objs, fields, **kwargs)
+  File "C:\Python27\lib\site-packages\django\db\models\query.py", line 1514, in insert_query
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "C:\Python27\lib\site-packages\django\db\models\sql\compiler.py", line 903, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Python27\lib\site-packages\django\db\backends\util.py", line 53, in execute
+    return self.cursor.execute(sql, params)
+  File "C:\Python27\lib\site-packages\django\db\utils.py", line 99, in __exit__
+    six.reraise(dj_exc_type, dj_exc_value, traceback)
+  File "C:\Python27\lib\site-packages\django\db\backends\util.py", line 53, in execute
+    return self.cursor.execute(sql, params)
+  File "C:\Python27\lib\site-packages\django\db\backends\sqlite3\base.py", line 452, in execute
+    return Database.Cursor.execute(self, query, params)
+IntegrityError: column key is not unique
+C:\Python27\lib\site-packages\django\core\handlers\base.py TIME: 2014-11-14 02:31:44,049 MSG: base.py:handle_uncaught_exception:224 Internal Server Error: /m/default/media/images/by-sa-88x31.png
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 88, in get_response
+    response = middleware_method(request)
+  File "M:\app\hackathon\osqa\forum\middleware\extended_user.py", line 9, in process_request
+    super(ExtendedUser, self).process_request(request)
+  File "M:\app\hackathon\osqa\forum\modules\decorators.py", line 77, in decoratable_method
+    return decoratable(self, *args, **kwargs)
+  File "M:\app\hackathon\osqa\forum\modules\decorators.py", line 60, in __call__
+    res = dec(res, *args, **kwargs)
+  File "M:\app\hackathon\osqa\forum_modules\updates\startup.py", line 20, in process_request
+    update_trigger()
+  File "M:\app\hackathon\osqa\forum_modules\updates\base.py", line 178, in update_trigger
+    if (now - settings.LATEST_UPDATE_DATETIME) > datetime.timedelta(days=1):
+  File "M:\app\hackathon\osqa\forum\settings\base.py", line 22, in wrapper
+    return self.value.__getattribute__(name)(*args, **kwargs)
+  File "M:\app\hackathon\osqa\forum\settings\base.py", line 63, in value
+    self.save(self.default)
+  File "M:\app\hackathon\osqa\forum\settings\base.py", line 86, in save
+    kv.save()
+  File "M:\app\hackathon\osqa\forum\models\base.py", line 288, in save
+    super(BaseModel, self).save()
+  File "C:\Python27\lib\site-packages\django\db\models\base.py", line 545, in save
+    force_update=force_update, update_fields=update_fields)
+  File "C:\Python27\lib\site-packages\django\db\models\base.py", line 573, in save_base
+    updated = self._save_table(raw, cls, force_insert, force_update, using, update_fields)
+  File "C:\Python27\lib\site-packages\django\db\models\base.py", line 654, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "C:\Python27\lib\site-packages\django\db\models\base.py", line 687, in _do_insert
+    using=using, raw=raw)
+  File "C:\Python27\lib\site-packages\django\db\models\manager.py", line 232, in _insert
+    return insert_query(self.model, objs, fields, **kwargs)
+  File "C:\Python27\lib\site-packages\django\db\models\query.py", line 1514, in insert_query
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "C:\Python27\lib\site-packages\django\db\models\sql\compiler.py", line 903, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Python27\lib\site-packages\django\db\backends\util.py", line 53, in execute
+    return self.cursor.execute(sql, params)
+  File "C:\Python27\lib\site-packages\django\db\utils.py", line 99, in __exit__
+    six.reraise(dj_exc_type, dj_exc_value, traceback)
+  File "C:\Python27\lib\site-packages\django\db\backends\util.py", line 53, in execute
+    return self.cursor.execute(sql, params)
+  File "C:\Python27\lib\site-packages\django\db\backends\sqlite3\base.py", line 452, in execute
+    return Database.Cursor.execute(self, query, params)
+IntegrityError: column key is not unique
+C:\Python27\lib\site-packages\django\core\handlers\base.py TIME: 2014-11-14 02:31:44,157 MSG: base.py:handle_uncaught_exception:224 Internal Server Error: /m/default/media/js/osqa.main.js
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 88, in get_response
+    response = middleware_method(request)
+  File "M:\app\hackathon\osqa\forum\middleware\extended_user.py", line 9, in process_request
+    super(ExtendedUser, self).process_request(request)
+  File "M:\app\hackathon\osqa\forum\modules\decorators.py", line 77, in decoratable_method
+    return decoratable(self, *args, **kwargs)
+  File "M:\app\hackathon\osqa\forum\modules\decorators.py", line 60, in __call__
+    res = dec(res, *args, **kwargs)
+  File "M:\app\hackathon\osqa\forum_modules\updates\startup.py", line 20, in process_request
+    update_trigger()
+  File "M:\app\hackathon\osqa\forum_modules\updates\base.py", line 178, in update_trigger
+    if (now - settings.LATEST_UPDATE_DATETIME) > datetime.timedelta(days=1):
+  File "M:\app\hackathon\osqa\forum\settings\base.py", line 22, in wrapper
+    return self.value.__getattribute__(name)(*args, **kwargs)
+  File "M:\app\hackathon\osqa\forum\settings\base.py", line 63, in value
+    self.save(self.default)
+  File "M:\app\hackathon\osqa\forum\settings\base.py", line 86, in save
+    kv.save()
+  File "M:\app\hackathon\osqa\forum\models\base.py", line 288, in save
+    super(BaseModel, self).save()
+  File "C:\Python27\lib\site-packages\django\db\models\base.py", line 545, in save
+    force_update=force_update, update_fields=update_fields)
+  File "C:\Python27\lib\site-packages\django\db\models\base.py", line 573, in save_base
+    updated = self._save_table(raw, cls, force_insert, force_update, using, update_fields)
+  File "C:\Python27\lib\site-packages\django\db\models\base.py", line 654, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "C:\Python27\lib\site-packages\django\db\models\base.py", line 687, in _do_insert
+    using=using, raw=raw)
+  File "C:\Python27\lib\site-packages\django\db\models\manager.py", line 232, in _insert
+    return insert_query(self.model, objs, fields, **kwargs)
+  File "C:\Python27\lib\site-packages\django\db\models\query.py", line 1514, in insert_query
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "C:\Python27\lib\site-packages\django\db\models\sql\compiler.py", line 903, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Python27\lib\site-packages\django\db\backends\util.py", line 53, in execute
+    return self.cursor.execute(sql, params)
+  File "C:\Python27\lib\site-packages\django\db\utils.py", line 99, in __exit__
+    six.reraise(dj_exc_type, dj_exc_value, traceback)
+  File "C:\Python27\lib\site-packages\django\db\backends\util.py", line 53, in execute
+    return self.cursor.execute(sql, params)
+  File "C:\Python27\lib\site-packages\django\db\backends\sqlite3\base.py", line 452, in execute
+    return Database.Cursor.execute(self, query, params)
+IntegrityError: column key is not unique
+M:\app\hackathon\osqa\forum\views\meta.py TIME: 2014-11-14 02:31:44,188 MSG: meta.py:error_handler:202 
+        error executing request:
+        PATH: /upfiles/logo.png
+        USER: <anonymous>
+        METHOD: GET
+        POST PARAMETERS:
+        None
+        GET PARAMETERS:
+        None
+        HTTP HEADERS:
+        		TMP: C:\Users\ADMINI~1\AppData\Local\Temp\1
+		COMPUTERNAME: GNARLYDELL01
+		wsgi.multiprocess: False
+		PROCESSOR_LEVEL: 6
+		RUN_MAIN: true
+		HTTP_REFERER: http://127.0.0.1:8000/
+		USERDOMAIN: GNARLYDELL01
+		SERVER_PROTOCOL: HTTP/1.1
+		SERVER_SOFTWARE: WSGIServer/0.1 Python/2.7.8
+		PSMODULEPATH: C:\Windows\system32\WindowsPowerShell\v1.0\Modules\
+		SCRIPT_NAME: 
+		COMMONPROGRAMFILES: C:\Program Files (x86)\Common Files
+		PROCESSOR_IDENTIFIER: Intel64 Family 6 Model 45 Stepping 7, GenuineIntel
+		REQUEST_METHOD: GET
+		LM_LICENSE_FILE: 26585@nandlic1
+		PROCESSOR_REVISION: 2d07
+		PATH: C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Application\Perl\c\bin;C:\Application\Perl\perl\site\bin;C:\Application\Perl\perl\bin;C:\Python27;C:\Python27\Scripts
+		QUERY_STRING: 
+		SYSTEMROOT: C:\Windows
+		PROGRAMFILES(X86): C:\Program Files (x86)
+		CONTENT_LENGTH: 
+		TERM: dumb
+		HTTP_USER_AGENT: Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0)
+		HTTP_CONNECTION: Keep-Alive
+		HTTP_COOKIE: s_pers=%20s_fid%3D5AED55BDC443413A-0CDA7FAB97B484F6%7C1465095139752%3B%20s_vs%3D1%7C1401938539755%3B%20s_nr%3D1401936739758-Repeat%7C1433472739758%3B; csrftoken=UpkXOQAwPwdVdgp2F5ZezuPvOeNXK9uF; greeting_set=True
+		TEMP: C:\Users\ADMINI~1\AppData\Local\Temp\1
+		REMOTE_ADDR: 127.0.0.1
+		COMMONPROGRAMFILES(X86): C:\Program Files (x86)\Common Files
+		PROCESSOR_ARCHITECTURE: x86
+		wsgi.url_scheme: http
+		ALLUSERSPROFILE: C:\ProgramData
+		SERVER_PORT: 8000
+		LOCALAPPDATA: C:\Users\Administrator\AppData\Local
+		HOMEPATH: \Users\Administrator
+		USERDOMAIN_ROAMINGPROFILE: GNARLYDELL01
+		PROGRAMW6432: C:\Program Files
+		USERNAME: Administrator
+		HTTP_ACCEPT: image/png, image/svg+xml, image/*;q=0.8, */*;q=0.5
+		LOGONSERVER: \\GNARLYDELL01
+		PROMPT: $P$G
+		COMSPEC: C:\Windows\system32\cmd.exe
+		PROGRAMDATA: C:\ProgramData
+		wsgi.multithread: True
+		wsgi.input: <socket._fileobject object at 0x042F6930>
+		wsgi.errors: <open file '<stderr>', mode 'w' at 0x007ED0D0>
+		HTTP_HOST: 127.0.0.1:8000
+		SESSIONNAME: RDP-Tcp#0
+		PATHEXT: .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+		PATH_INFO: /upfiles/logo.png
+		CLIENTNAME: HQE201334
+		FP_NO_HOST_CHECK: NO
+		WINDIR: C:\Windows
+		wsgi.file_wrapper: wsgiref.util.FileWrapper
+		HTTP_ACCEPT_ENCODING: gzip, deflate
+		wsgi.version: (1, 0)
+		HOMEDRIVE: C:
+		APPDATA: C:\Users\Administrator\AppData\Roaming
+		SERVER_NAME: GNARLYDELL01
+		PROGRAMFILES: C:\Program Files (x86)
+		REMOTE_HOST: 
+		SYSTEMDRIVE: C:
+		GATEWAY_INTERFACE: CGI/1.1
+		HTTP_ACCEPT_LANGUAGE: en-US
+		NUMBER_OF_PROCESSORS: 32
+		wsgi.run_once: False
+		DJANGO_SETTINGS_MODULE: settings
+		CONTENT_TYPE: text/plain
+		PROCESSOR_ARCHITEW6432: AMD64
+		COMMONPROGRAMW6432: C:\Program Files\Common Files
+		OS: Windows_NT
+		PUBLIC: C:\Users\Public
+		USERPROFILE: C:\Users\Administrator
+
+        COOKIES:
+        		csrftoken: UpkXOQAwPwdVdgp2F5ZezuPvOeNXK9uF
+		greeting_set: True
+		s_pers: %20s_fid%3D5AED55BDC443413A-0CDA7FAB97B484F6%7C1465095139752%3B%20s_vs%3D1%7C1401938539755%3B%20s_nr%3D1401936739758-Repeat%7C1433472739758%3B
+
+        EXCEPTION INFO:
+        		Traceback (most recent call last):
+		  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 88, in get_response
+		    response = middleware_method(request)
+		  File "M:\app\hackathon\osqa\forum\middleware\extended_user.py", line 9, in process_request
+		    super(ExtendedUser, self).process_request(request)
+		  File "M:\app\hackathon\osqa\forum\modules\decorators.py", line 77, in decoratable_method
+		    return decoratable(self, *args, **kwargs)
+		  File "M:\app\hackathon\osqa\forum\modules\decorators.py", line 60, in __call__
+		    res = dec(res, *args, **kwargs)
+		  File "M:\app\hackathon\osqa\forum_modules\updates\startup.py", line 20, in process_request
+		    update_trigger()
+		  File "M:\app\hackathon\osqa\forum_modules\updates\base.py", line 178, in update_trigger
+		    if (now - settings.LATEST_UPDATE_DATETIME) > datetime.timedelta(days=1):
+		  File "M:\app\hackathon\osqa\forum\settings\base.py", line 22, in wrapper
+		    return self.value.__getattribute__(name)(*args, **kwargs)
+		  File "M:\app\hackathon\osqa\forum\settings\base.py", line 63, in value
+		    self.save(self.default)
+		  File "M:\app\hackathon\osqa\forum\settings\base.py", line 86, in save
+		    kv.save()
+		  File "M:\app\hackathon\osqa\forum\models\base.py", line 288, in save
+		    super(BaseModel, self).save()
+		  File "C:\Python27\lib\site-packages\django\db\models\base.py", line 545, in save
+		    force_update=force_update, update_fields=update_fields)
+		  File "C:\Python27\lib\site-packages\django\db\models\base.py", line 573, in save_base
+		    updated = self._save_table(raw, cls, force_insert, force_update, using, update_fields)
+		  File "C:\Python27\lib\site-packages\django\db\models\base.py", line 654, in _save_table
+		    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+		  File "C:\Python27\lib\site-packages\django\db\models\base.py", line 687, in _do_insert
+		    using=using, raw=raw)
+		  File "C:\Python27\lib\site-packages\django\db\models\manager.py", line 232, in _insert
+		    return insert_query(self.model, objs, fields, **kwargs)
+		  File "C:\Python27\lib\site-packages\django\db\models\query.py", line 1514, in insert_query
+		    return query.get_compiler(using=using).execute_sql(return_id)
+		  File "C:\Python27\lib\site-packages\django\db\models\sql\compiler.py", line 903, in execute_sql
+		    cursor.execute(sql, params)
+		  File "C:\Python27\lib\site-packages\django\db\backends\util.py", line 53, in execute
+		    return self.cursor.execute(sql, params)
+		  File "C:\Python27\lib\site-packages\django\db\utils.py", line 99, in __exit__
+		    six.reraise(dj_exc_type, dj_exc_value, traceback)
+		  File "C:\Python27\lib\site-packages\django\db\backends\util.py", line 53, in execute
+		    return self.cursor.execute(sql, params)
+		  File "C:\Python27\lib\site-packages\django\db\backends\sqlite3\base.py", line 452, in execute
+		    return Database.Cursor.execute(self, query, params)
+		IntegrityError: column key is not unique
+		
+
+        
+M:\app\hackathon\osqa\forum\views\meta.py TIME: 2014-11-14 02:31:44,252 MSG: meta.py:error_handler:202 
+        error executing request:
+        PATH: /m/default/media/images/by-sa-88x31.png
+        USER: <anonymous>
+        METHOD: GET
+        POST PARAMETERS:
+        None
+        GET PARAMETERS:
+        None
+        HTTP HEADERS:
+        		TMP: C:\Users\ADMINI~1\AppData\Local\Temp\1
+		COMPUTERNAME: GNARLYDELL01
+		wsgi.multiprocess: False
+		PROCESSOR_LEVEL: 6
+		RUN_MAIN: true
+		HTTP_REFERER: http://127.0.0.1:8000/
+		USERDOMAIN: GNARLYDELL01
+		SERVER_PROTOCOL: HTTP/1.1
+		SERVER_SOFTWARE: WSGIServer/0.1 Python/2.7.8
+		PSMODULEPATH: C:\Windows\system32\WindowsPowerShell\v1.0\Modules\
+		SCRIPT_NAME: 
+		COMMONPROGRAMFILES: C:\Program Files (x86)\Common Files
+		PROCESSOR_IDENTIFIER: Intel64 Family 6 Model 45 Stepping 7, GenuineIntel
+		REQUEST_METHOD: GET
+		LM_LICENSE_FILE: 26585@nandlic1
+		PROCESSOR_REVISION: 2d07
+		PATH: C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Application\Perl\c\bin;C:\Application\Perl\perl\site\bin;C:\Application\Perl\perl\bin;C:\Python27;C:\Python27\Scripts
+		QUERY_STRING: 
+		SYSTEMROOT: C:\Windows
+		PROGRAMFILES(X86): C:\Program Files (x86)
+		CONTENT_LENGTH: 
+		TERM: dumb
+		HTTP_USER_AGENT: Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0)
+		HTTP_CONNECTION: Keep-Alive
+		HTTP_COOKIE: s_pers=%20s_fid%3D5AED55BDC443413A-0CDA7FAB97B484F6%7C1465095139752%3B%20s_vs%3D1%7C1401938539755%3B%20s_nr%3D1401936739758-Repeat%7C1433472739758%3B; csrftoken=UpkXOQAwPwdVdgp2F5ZezuPvOeNXK9uF; greeting_set=True
+		TEMP: C:\Users\ADMINI~1\AppData\Local\Temp\1
+		REMOTE_ADDR: 127.0.0.1
+		COMMONPROGRAMFILES(X86): C:\Program Files (x86)\Common Files
+		PROCESSOR_ARCHITECTURE: x86
+		wsgi.url_scheme: http
+		ALLUSERSPROFILE: C:\ProgramData
+		SERVER_PORT: 8000
+		LOCALAPPDATA: C:\Users\Administrator\AppData\Local
+		HOMEPATH: \Users\Administrator
+		USERDOMAIN_ROAMINGPROFILE: GNARLYDELL01
+		PROGRAMW6432: C:\Program Files
+		USERNAME: Administrator
+		HTTP_ACCEPT: image/png, image/svg+xml, image/*;q=0.8, */*;q=0.5
+		LOGONSERVER: \\GNARLYDELL01
+		PROMPT: $P$G
+		COMSPEC: C:\Windows\system32\cmd.exe
+		PROGRAMDATA: C:\ProgramData
+		wsgi.multithread: True
+		wsgi.input: <socket._fileobject object at 0x042F6A30>
+		wsgi.errors: <open file '<stderr>', mode 'w' at 0x007ED0D0>
+		HTTP_HOST: 127.0.0.1:8000
+		SESSIONNAME: RDP-Tcp#0
+		PATHEXT: .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+		PATH_INFO: /m/default/media/images/by-sa-88x31.png
+		CLIENTNAME: HQE201334
+		FP_NO_HOST_CHECK: NO
+		WINDIR: C:\Windows
+		wsgi.file_wrapper: wsgiref.util.FileWrapper
+		HTTP_ACCEPT_ENCODING: gzip, deflate
+		wsgi.version: (1, 0)
+		HOMEDRIVE: C:
+		APPDATA: C:\Users\Administrator\AppData\Roaming
+		SERVER_NAME: GNARLYDELL01
+		PROGRAMFILES: C:\Program Files (x86)
+		REMOTE_HOST: 
+		SYSTEMDRIVE: C:
+		GATEWAY_INTERFACE: CGI/1.1
+		HTTP_ACCEPT_LANGUAGE: en-US
+		NUMBER_OF_PROCESSORS: 32
+		wsgi.run_once: False
+		DJANGO_SETTINGS_MODULE: settings
+		CONTENT_TYPE: text/plain
+		PROCESSOR_ARCHITEW6432: AMD64
+		COMMONPROGRAMW6432: C:\Program Files\Common Files
+		OS: Windows_NT
+		PUBLIC: C:\Users\Public
+		USERPROFILE: C:\Users\Administrator
+
+        COOKIES:
+        		csrftoken: UpkXOQAwPwdVdgp2F5ZezuPvOeNXK9uF
+		greeting_set: True
+		s_pers: %20s_fid%3D5AED55BDC443413A-0CDA7FAB97B484F6%7C1465095139752%3B%20s_vs%3D1%7C1401938539755%3B%20s_nr%3D1401936739758-Repeat%7C1433472739758%3B
+
+        EXCEPTION INFO:
+        		Traceback (most recent call last):
+		  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 88, in get_response
+		    response = middleware_method(request)
+		  File "M:\app\hackathon\osqa\forum\middleware\extended_user.py", line 9, in process_request
+		    super(ExtendedUser, self).process_request(request)
+		  File "M:\app\hackathon\osqa\forum\modules\decorators.py", line 77, in decoratable_method
+		    return decoratable(self, *args, **kwargs)
+		  File "M:\app\hackathon\osqa\forum\modules\decorators.py", line 60, in __call__
+		    res = dec(res, *args, **kwargs)
+		  File "M:\app\hackathon\osqa\forum_modules\updates\startup.py", line 20, in process_request
+		    update_trigger()
+		  File "M:\app\hackathon\osqa\forum_modules\updates\base.py", line 178, in update_trigger
+		    if (now - settings.LATEST_UPDATE_DATETIME) > datetime.timedelta(days=1):
+		  File "M:\app\hackathon\osqa\forum\settings\base.py", line 22, in wrapper
+		    return self.value.__getattribute__(name)(*args, **kwargs)
+		  File "M:\app\hackathon\osqa\forum\settings\base.py", line 63, in value
+		    self.save(self.default)
+		  File "M:\app\hackathon\osqa\forum\settings\base.py", line 86, in save
+		    kv.save()
+		  File "M:\app\hackathon\osqa\forum\models\base.py", line 288, in save
+		    super(BaseModel, self).save()
+		  File "C:\Python27\lib\site-packages\django\db\models\base.py", line 545, in save
+		    force_update=force_update, update_fields=update_fields)
+		  File "C:\Python27\lib\site-packages\django\db\models\base.py", line 573, in save_base
+		    updated = self._save_table(raw, cls, force_insert, force_update, using, update_fields)
+		  File "C:\Python27\lib\site-packages\django\db\models\base.py", line 654, in _save_table
+		    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+		  File "C:\Python27\lib\site-packages\django\db\models\base.py", line 687, in _do_insert
+		    using=using, raw=raw)
+		  File "C:\Python27\lib\site-packages\django\db\models\manager.py", line 232, in _insert
+		    return insert_query(self.model, objs, fields, **kwargs)
+		  File "C:\Python27\lib\site-packages\django\db\models\query.py", line 1514, in insert_query
+		    return query.get_compiler(using=using).execute_sql(return_id)
+		  File "C:\Python27\lib\site-packages\django\db\models\sql\compiler.py", line 903, in execute_sql
+		    cursor.execute(sql, params)
+		  File "C:\Python27\lib\site-packages\django\db\backends\util.py", line 53, in execute
+		    return self.cursor.execute(sql, params)
+		  File "C:\Python27\lib\site-packages\django\db\utils.py", line 99, in __exit__
+		    six.reraise(dj_exc_type, dj_exc_value, traceback)
+		  File "C:\Python27\lib\site-packages\django\db\backends\util.py", line 53, in execute
+		    return self.cursor.execute(sql, params)
+		  File "C:\Python27\lib\site-packages\django\db\backends\sqlite3\base.py", line 452, in execute
+		    return Database.Cursor.execute(self, query, params)
+		IntegrityError: column key is not unique
+		
+
+        
+M:\app\hackathon\osqa\forum\views\meta.py TIME: 2014-11-14 02:31:44,282 MSG: meta.py:error_handler:202 
+        error executing request:
+        PATH: /m/default/media/js/osqa.main.js
+        USER: <anonymous>
+        METHOD: GET
+        POST PARAMETERS:
+        None
+        GET PARAMETERS:
+        None
+        HTTP HEADERS:
+        		TMP: C:\Users\ADMINI~1\AppData\Local\Temp\1
+		COMPUTERNAME: GNARLYDELL01
+		wsgi.multiprocess: False
+		PROCESSOR_LEVEL: 6
+		RUN_MAIN: true
+		HTTP_REFERER: http://127.0.0.1:8000/
+		USERDOMAIN: GNARLYDELL01
+		SERVER_PROTOCOL: HTTP/1.1
+		SERVER_SOFTWARE: WSGIServer/0.1 Python/2.7.8
+		PSMODULEPATH: C:\Windows\system32\WindowsPowerShell\v1.0\Modules\
+		SCRIPT_NAME: 
+		COMMONPROGRAMFILES: C:\Program Files (x86)\Common Files
+		PROCESSOR_IDENTIFIER: Intel64 Family 6 Model 45 Stepping 7, GenuineIntel
+		REQUEST_METHOD: GET
+		LM_LICENSE_FILE: 26585@nandlic1
+		PROCESSOR_REVISION: 2d07
+		PATH: C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Application\Perl\c\bin;C:\Application\Perl\perl\site\bin;C:\Application\Perl\perl\bin;C:\Python27;C:\Python27\Scripts
+		QUERY_STRING: 
+		SYSTEMROOT: C:\Windows
+		PROGRAMFILES(X86): C:\Program Files (x86)
+		CONTENT_LENGTH: 
+		TERM: dumb
+		HTTP_USER_AGENT: Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0)
+		HTTP_CONNECTION: Keep-Alive
+		HTTP_COOKIE: s_pers=%20s_fid%3D5AED55BDC443413A-0CDA7FAB97B484F6%7C1465095139752%3B%20s_vs%3D1%7C1401938539755%3B%20s_nr%3D1401936739758-Repeat%7C1433472739758%3B; csrftoken=UpkXOQAwPwdVdgp2F5ZezuPvOeNXK9uF; greeting_set=True
+		TEMP: C:\Users\ADMINI~1\AppData\Local\Temp\1
+		REMOTE_ADDR: 127.0.0.1
+		COMMONPROGRAMFILES(X86): C:\Program Files (x86)\Common Files
+		PROCESSOR_ARCHITECTURE: x86
+		wsgi.url_scheme: http
+		ALLUSERSPROFILE: C:\ProgramData
+		SERVER_PORT: 8000
+		LOCALAPPDATA: C:\Users\Administrator\AppData\Local
+		HOMEPATH: \Users\Administrator
+		USERDOMAIN_ROAMINGPROFILE: GNARLYDELL01
+		PROGRAMW6432: C:\Program Files
+		USERNAME: Administrator
+		HTTP_ACCEPT: application/javascript, */*;q=0.8
+		LOGONSERVER: \\GNARLYDELL01
+		PROMPT: $P$G
+		COMSPEC: C:\Windows\system32\cmd.exe
+		PROGRAMDATA: C:\ProgramData
+		wsgi.multithread: True
+		wsgi.input: <socket._fileobject object at 0x03477F30>
+		wsgi.errors: <open file '<stderr>', mode 'w' at 0x007ED0D0>
+		HTTP_HOST: 127.0.0.1:8000
+		SESSIONNAME: RDP-Tcp#0
+		PATHEXT: .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+		PATH_INFO: /m/default/media/js/osqa.main.js
+		CLIENTNAME: HQE201334
+		FP_NO_HOST_CHECK: NO
+		WINDIR: C:\Windows
+		wsgi.file_wrapper: wsgiref.util.FileWrapper
+		HTTP_ACCEPT_ENCODING: gzip, deflate
+		wsgi.version: (1, 0)
+		HOMEDRIVE: C:
+		APPDATA: C:\Users\Administrator\AppData\Roaming
+		SERVER_NAME: GNARLYDELL01
+		PROGRAMFILES: C:\Program Files (x86)
+		REMOTE_HOST: 
+		SYSTEMDRIVE: C:
+		GATEWAY_INTERFACE: CGI/1.1
+		HTTP_ACCEPT_LANGUAGE: en-US
+		NUMBER_OF_PROCESSORS: 32
+		wsgi.run_once: False
+		DJANGO_SETTINGS_MODULE: settings
+		CONTENT_TYPE: text/plain
+		PROCESSOR_ARCHITEW6432: AMD64
+		COMMONPROGRAMW6432: C:\Program Files\Common Files
+		OS: Windows_NT
+		PUBLIC: C:\Users\Public
+		USERPROFILE: C:\Users\Administrator
+
+        COOKIES:
+        		csrftoken: UpkXOQAwPwdVdgp2F5ZezuPvOeNXK9uF
+		greeting_set: True
+		s_pers: %20s_fid%3D5AED55BDC443413A-0CDA7FAB97B484F6%7C1465095139752%3B%20s_vs%3D1%7C1401938539755%3B%20s_nr%3D1401936739758-Repeat%7C1433472739758%3B
+
+        EXCEPTION INFO:
+        		Traceback (most recent call last):
+		  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 88, in get_response
+		    response = middleware_method(request)
+		  File "M:\app\hackathon\osqa\forum\middleware\extended_user.py", line 9, in process_request
+		    super(ExtendedUser, self).process_request(request)
+		  File "M:\app\hackathon\osqa\forum\modules\decorators.py", line 77, in decoratable_method
+		    return decoratable(self, *args, **kwargs)
+		  File "M:\app\hackathon\osqa\forum\modules\decorators.py", line 60, in __call__
+		    res = dec(res, *args, **kwargs)
+		  File "M:\app\hackathon\osqa\forum_modules\updates\startup.py", line 20, in process_request
+		    update_trigger()
+		  File "M:\app\hackathon\osqa\forum_modules\updates\base.py", line 178, in update_trigger
+		    if (now - settings.LATEST_UPDATE_DATETIME) > datetime.timedelta(days=1):
+		  File "M:\app\hackathon\osqa\forum\settings\base.py", line 22, in wrapper
+		    return self.value.__getattribute__(name)(*args, **kwargs)
+		  File "M:\app\hackathon\osqa\forum\settings\base.py", line 63, in value
+		    self.save(self.default)
+		  File "M:\app\hackathon\osqa\forum\settings\base.py", line 86, in save
+		    kv.save()
+		  File "M:\app\hackathon\osqa\forum\models\base.py", line 288, in save
+		    super(BaseModel, self).save()
+		  File "C:\Python27\lib\site-packages\django\db\models\base.py", line 545, in save
+		    force_update=force_update, update_fields=update_fields)
+		  File "C:\Python27\lib\site-packages\django\db\models\base.py", line 573, in save_base
+		    updated = self._save_table(raw, cls, force_insert, force_update, using, update_fields)
+		  File "C:\Python27\lib\site-packages\django\db\models\base.py", line 654, in _save_table
+		    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+		  File "C:\Python27\lib\site-packages\django\db\models\base.py", line 687, in _do_insert
+		    using=using, raw=raw)
+		  File "C:\Python27\lib\site-packages\django\db\models\manager.py", line 232, in _insert
+		    return insert_query(self.model, objs, fields, **kwargs)
+		  File "C:\Python27\lib\site-packages\django\db\models\query.py", line 1514, in insert_query
+		    return query.get_compiler(using=using).execute_sql(return_id)
+		  File "C:\Python27\lib\site-packages\django\db\models\sql\compiler.py", line 903, in execute_sql
+		    cursor.execute(sql, params)
+		  File "C:\Python27\lib\site-packages\django\db\backends\util.py", line 53, in execute
+		    return self.cursor.execute(sql, params)
+		  File "C:\Python27\lib\site-packages\django\db\utils.py", line 99, in __exit__
+		    six.reraise(dj_exc_type, dj_exc_value, traceback)
+		  File "C:\Python27\lib\site-packages\django\db\backends\util.py", line 53, in execute
+		    return self.cursor.execute(sql, params)
+		  File "C:\Python27\lib\site-packages\django\db\backends\sqlite3\base.py", line 452, in execute
+		    return Database.Cursor.execute(self, query, params)
+		IntegrityError: column key is not unique
+		
+
+        
+C:\Python27\lib\site-packages\markdown\__init__.py TIME: 2014-11-14 02:49:32,079 MSG: __init__.py:build_extension:245 Successfuly imported extension module "mdx_settingsparser".
+C:\Python27\lib\site-packages\markdown\__init__.py TIME: 2014-11-14 02:49:32,095 MSG: __init__.py:registerExtensions:184 Successfully loaded extension "mdx_settingsparser.SettingsExtension".
+C:\Python27\lib\site-packages\markdown\__init__.py TIME: 2014-11-14 02:49:32,157 MSG: __init__.py:build_extension:245 Successfuly imported extension module "mdx_settingsparser".
+C:\Python27\lib\site-packages\markdown\__init__.py TIME: 2014-11-14 02:49:32,157 MSG: __init__.py:registerExtensions:184 Successfully loaded extension "mdx_settingsparser.SettingsExtension".
+C:\Python27\lib\site-packages\markdown\__init__.py TIME: 2014-11-14 02:49:44,144 MSG: __init__.py:build_extension:245 Successfuly imported extension module "mdx_settingsparser".
+C:\Python27\lib\site-packages\markdown\__init__.py TIME: 2014-11-14 02:49:44,158 MSG: __init__.py:registerExtensions:184 Successfully loaded extension "mdx_settingsparser.SettingsExtension".
+C:\Python27\lib\site-packages\markdown\__init__.py TIME: 2014-11-14 02:49:44,174 MSG: __init__.py:build_extension:245 Successfuly imported extension module "mdx_settingsparser".
+C:\Python27\lib\site-packages\markdown\__init__.py TIME: 2014-11-14 02:49:44,190 MSG: __init__.py:registerExtensions:184 Successfully loaded extension "mdx_settingsparser.SettingsExtension".
+C:\Python27\lib\site-packages\markdown\__init__.py TIME: 2014-11-14 02:49:50,691 MSG: __init__.py:build_extension:245 Successfuly imported extension module "mdx_settingsparser".
+C:\Python27\lib\site-packages\markdown\__init__.py TIME: 2014-11-14 02:49:50,691 MSG: __init__.py:registerExtensions:184 Successfully loaded extension "mdx_settingsparser.SettingsExtension".
+C:\Python27\lib\site-packages\markdown\__init__.py TIME: 2014-11-14 02:49:50,707 MSG: __init__.py:build_extension:245 Successfuly imported extension module "mdx_settingsparser".
+C:\Python27\lib\site-packages\markdown\__init__.py TIME: 2014-11-14 02:49:50,723 MSG: __init__.py:registerExtensions:184 Successfully loaded extension "mdx_settingsparser.SettingsExtension".

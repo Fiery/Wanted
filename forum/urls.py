@@ -35,7 +35,7 @@ core_urls = (
     url(r'^favicon\.ico$', app.meta.favicon),
     url(r'^cstyle\.css$', app.meta.custom_css, name='custom_css'),
     
-    url(r'^m/(?P<skin>\w+)/media/(?P<path>.*)$', app.meta.media , name='osqa_media'),
+    url(r'^i/(?P<skin>\w+)/media/(?P<path>.*)$', app.meta.media , name='osqa_media'),
     url(r'^%s(?P<path>.*)$' % _('upfiles/'), 'django.views.static.serve', {'document_root': os.path.join(APP_PATH, 'upfiles').replace('\\', '/')}, name='uploaded_file',),
     
     url(r'^%s$' % _('faq/'), app.meta.static, {'content': settings.FAQ_PAGE_TEXT, 'title': _('FAQ')}, name='faq'),
